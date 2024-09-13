@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Task</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42ac6f37-5c2a-4597-83f1-9a4335f143eb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8e43d694-b2a5-4811-ac85-58da5d57c416</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>971318b3-d78a-4414-b538-f7191e0a81f9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Katalon Final Task'</defaultValue>
+      <description></description>
+      <id>8e43d694-b2a5-4811-ac85-58da5d57c416</id>
+      <masked>false</masked>
+      <name>updateTitleTask</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mobile, Web, API'</defaultValue>
+      <description></description>
+      <id>971318b3-d78a-4414-b538-f7191e0a81f9</id>
+      <masked>false</masked>
+      <name>updateTaskDesc</name>
+   </variable>
+</TestCaseEntity>

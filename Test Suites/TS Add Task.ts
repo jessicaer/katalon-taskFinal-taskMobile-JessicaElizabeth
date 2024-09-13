@@ -15,7 +15,7 @@
       <guid>27d7c92f-1e13-4c4e-bf82-3f8e93809b8b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC Add Task - Spy</testCaseId>
+      <testCaseId>Test Cases/Task/Add Task Success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
