@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Task</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7d4a4b8d-d4d4-4425-a5f3-e4b5299268e9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>95c85cdf-f198-4eaa-b56e-e679fdad93cf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c619f561-215e-4d9f-9a70-e3f76b2b2798</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Katalon Class'</defaultValue>
+      <description></description>
+      <id>95c85cdf-f198-4eaa-b56e-e679fdad93cf</id>
+      <masked>false</masked>
+      <name>taskTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mobile, API'</defaultValue>
+      <description></description>
+      <id>c619f561-215e-4d9f-9a70-e3f76b2b2798</id>
+      <masked>false</masked>
+      <name>enterYourTask</name>
+   </variable>
+</TestCaseEntity>
