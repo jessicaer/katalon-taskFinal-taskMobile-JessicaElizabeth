@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC Add Category</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c812f692-6f28-49c1-b442-1a4851698831</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec2e24d2-a294-436d-aea5-1f109233c3ca</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'School'</defaultValue>
+      <description></description>
+      <id>ec2e24d2-a294-436d-aea5-1f109233c3ca</id>
+      <masked>false</masked>
+      <name>newCategory</name>
+   </variable>
+</TestCaseEntity>
