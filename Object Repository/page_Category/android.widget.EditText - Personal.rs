@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>android.widget.AddButton</name>
+   <name>android.widget.EditText - Personal</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -12,24 +12,32 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.widget.ImageButton</value>
-      <webElementGuid>3df43ddf-ebf5-49b9-9088-977f9208231b</webElementGuid>
+      <value>android.widget.EditText</value>
+      <webElementGuid>a94c9967-8f39-480e-bfe0-3860b7cfbd3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>2</value>
-      <webElementGuid>fcdd7b09-6764-4340-a853-c9ec11489d59</webElementGuid>
+      <value>1</value>
+      <webElementGuid>7bd37721-3036-4306-b3a0-373aed254f47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Personal</value>
+      <webElementGuid>a0dc967b-7cf4-4b36-be7c-ae04be48da48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.avinashproduct.todo:id/fabAddTask</value>
-      <webElementGuid>bdcf7a03-529b-4398-911d-9c249ae1a7d7</webElementGuid>
+      <value>com.avinashproduct.todo:id/edtUpdateCat</value>
+      <webElementGuid>bf07f97c-d66a-45c4-9092-b030d5018e4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +45,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.avinashproduct.todo</value>
-      <webElementGuid>87c717b0-03ab-42bc-b461-1e2cfc126247</webElementGuid>
+      <webElementGuid>81640ba4-17d6-43ea-b028-8b2fcf81c800</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +53,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f1433548-aa97-49c4-ba34-2074daa6a50a</webElementGuid>
+      <webElementGuid>8c4075d5-0e39-49cb-b5b4-1350be6e7447</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +61,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>14b12755-eaf8-4f1d-931e-a8e7b547aada</webElementGuid>
+      <webElementGuid>5579bf7e-7c18-4a53-ade0-58566e270090</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +69,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e78ed241-14f8-464d-8733-336a3bfa214f</webElementGuid>
+      <webElementGuid>6dccd12d-e16b-421e-ba4d-a49c5e371fb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +77,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>179c0076-075b-4b79-bd2d-06373c7feb94</webElementGuid>
+      <webElementGuid>8a9a1ff4-a8a9-485a-a40c-0f782af9d8fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,15 +85,15 @@
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>acfbc528-9082-4e84-90af-390a3ffdb33d</webElementGuid>
+      <webElementGuid>bbf4672a-4b9a-4a92-bd2a-abb96b4e7abd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focused</name>
       <type>Main</type>
-      <value>false</value>
-      <webElementGuid>43c6352b-5a59-4fa7-b946-ce652459b67e</webElementGuid>
+      <value>true</value>
+      <webElementGuid>7cfb7c2a-6cfb-45a3-adf6-0f9a4763a76b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,15 +101,15 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>878f5c13-1fc7-44bb-9fe9-9e9dfbac316b</webElementGuid>
+      <webElementGuid>7d7b8684-ffec-4790-ad72-0806e6c36c0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>long-clickable</name>
       <type>Main</type>
-      <value>false</value>
-      <webElementGuid>11d8c723-e1a4-4e44-8bf3-1d63635bac4b</webElementGuid>
+      <value>true</value>
+      <webElementGuid>7f228f81-be94-47f8-8ab1-0694c6945880</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +117,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9b3e253c-8096-4417-9083-aff7e898778d</webElementGuid>
+      <webElementGuid>c0ee71e9-1d52-4f1b-a5ad-37734bd0fe5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,47 +125,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e1f95545-08e9-4d0c-a10f-b5db4dcbcf86</webElementGuid>
+      <webElementGuid>0b0e4da2-1fb8-451e-b20e-9c4afe4a03f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>882</value>
-      <webElementGuid>c9483acb-b03d-48e8-98f0-731d771f8866</webElementGuid>
+      <value>114</value>
+      <webElementGuid>afe9372c-558d-44b0-940f-f77ad1780948</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>2012</value>
-      <webElementGuid>2c94eeb6-9d17-466d-87f5-9b79b860c59f</webElementGuid>
+      <value>1069</value>
+      <webElementGuid>d3d6230d-2fcd-41bf-8548-4fae90c12190</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>154</value>
-      <webElementGuid>ebea5080-dd39-42a7-8470-da89bd30f38e</webElementGuid>
+      <value>850</value>
+      <webElementGuid>85520c2a-c157-42ea-8dfe-7155362e355b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>154</value>
-      <webElementGuid>35a93abd-e694-49f5-b786-12ed52461c25</webElementGuid>
+      <value>124</value>
+      <webElementGuid>0e1fc8ba-fd12-4e93-8ca9-1a81532ed9bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[882,2012][1036,2166]</value>
-      <webElementGuid>44478ad5-8ef0-49e5-951d-cc795220aba1</webElementGuid>
+      <value>[114,1069][964,1193]</value>
+      <webElementGuid>2df9a166-64fe-4cca-a362-c8824a8e9e5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -165,36 +173,48 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ebfb8b22-f2bf-47a5-87c6-f53e50390be9</webElementGuid>
+      <webElementGuid>1cabee18-547a-483a-843b-4c47542d8f27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>hint</name>
       <type>Main</type>
-      <value></value>
-      <webElementGuid>97ff9f6f-0b0f-4c55-9705-446b5ff239a3</webElementGuid>
+      <value>Enter category</value>
+      <webElementGuid>781ed243-a0f3-497c-a0cf-5f5117134d7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ImageButton[1]</value>
-      <webElementGuid>1a4e3750-6863-4193-961a-85e13e073de3</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v7.widget.LinearLayoutCompat[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.EditText[1]</value>
+      <webElementGuid>fc1ea6bf-1f32-407e-91e6-92773a533692</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.ImageButton' and @resource-id = 'com.avinashproduct.todo:id/fabAddTask' and (@text = '' or . = '')]</locator>
+   <locator>//*[@class = 'android.widget.EditText' and (@text = 'Personal' or . = 'Personal') and @resource-id = 'com.avinashproduct.todo:id/edtUpdateCat']</locator>
    <locatorCollection>
       <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.widget.ImageButton' and @resource-id = 'com.avinashproduct.todo:id/fabAddTask' and (@text = '' or . = '')]</value>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
       <entry>
          <key>IOS_CLASS_CHAIN</key>
          <value></value>
       </entry>
       <entry>
-         <key>CUSTOM</key>
+         <key>CLASS_NAME</key>
+         <value>android.widget.EditText</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>com.avinashproduct.todo:id/edtUpdateCat</value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@class = 'android.widget.EditText' and (@text = 'Personal' or . = 'Personal') and @resource-id = 'com.avinashproduct.todo:id/edtUpdateCat']</value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
          <value></value>
       </entry>
       <entry>
@@ -202,35 +222,23 @@
          <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ImageButton[1]</value>
-      </entry>
-      <entry>
-         <key>ANDROID_VIEWTAG</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ID</key>
-         <value>com.avinashproduct.todo:id/fabAddTask</value>
-      </entry>
-      <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.ImageButton&quot;).resourceId(&quot;com.avinashproduct.todo:id/fabAddTask&quot;).packageName(&quot;com.avinashproduct.todo&quot;).enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(2)</value>
-      </entry>
-      <entry>
-         <key>CLASS_NAME</key>
-         <value>android.widget.ImageButton</value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
+         <key>CUSTOM</key>
          <value></value>
       </entry>
       <entry>
          <key>NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v7.widget.LinearLayoutCompat[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.EditText[1]</value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().className(&quot;android.widget.EditText&quot;).text(&quot;Personal&quot;).resourceId(&quot;com.avinashproduct.todo:id/edtUpdateCat&quot;).packageName(&quot;com.avinashproduct.todo&quot;).enabled(true).clickable(true).longClickable(true).checkable(false).checked(false).focusable(true).focused(true).scrollable(false).selected(false).index(1)</value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
          <value></value>
       </entry>
    </locatorCollection>

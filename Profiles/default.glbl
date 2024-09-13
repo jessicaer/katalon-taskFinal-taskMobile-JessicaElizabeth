@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk'</initValue>
+      <name>apk</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

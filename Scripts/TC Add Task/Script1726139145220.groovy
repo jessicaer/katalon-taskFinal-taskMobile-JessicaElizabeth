@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Record/Object Add Task/android.widget.TextView - Skip'), 0)
+Mobile.tap(findTestObject('page_Dashboard/android.widget.TextView - Skip'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Record/Object Add Task/android.widget.AddButton'), 0)
+Mobile.tap(findTestObject('Object Repository/page_Dashboard/android.widget.button_Add-Task'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/Record/Object Add Task/android.widget.TextView - Add Task'), 
     0)

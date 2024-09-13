@@ -17,21 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk', true)
+Mobile.startApplication(GlobalVariable.apk, true)
 
-Mobile.tap(findTestObject('Object Repository/page_Add-Category/android.widget.TextView - Skip'), 0)
+Mobile.tap(findTestObject('page_Dashboard/android.widget.TextView - Skip'), 0)
 
-Mobile.tap(findTestObject('Object Repository/page_Add-Category/android.widget.button-Menu'), 0)
+Mobile.verifyElementVisible(findTestObject('page_Dashboard/android.widget.lbl_ToDo'), 0)
 
-Mobile.tap(findTestObject('Object Repository/page_Add-Category/android.widget.menu-Category'), 0)
+Mobile.tap(findTestObject('page_Dashboard/android.widget.button-Menu'), 0)
 
-Mobile.tap(findTestObject('Object Repository/page_Add-Category/android.widget.button-Add-New-Category'), 0)
+Mobile.tap(findTestObject('page_Category/android.widget.menu-Category'), 0)
 
-Mobile.setText(findTestObject('Object Repository/page_Add-Category/android.widget.input_Category'), newCategory, 0)
+Mobile.verifyElementVisible(findTestObject('Object Repository/page_Category/android.widget.lbl_Category'), 0)
 
-Mobile.tap(findTestObject('Object Repository/page_Add-Category/android.widget.button-Add'), 0)
+Mobile.tap(findTestObject('Object Repository/page_Category/android.widget.btn_Delete'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/page_Add-Category/android.widget.TextView - School'), newCategory)
+Mobile.tap(findTestObject('Object Repository/page_Category/android.widget.btn-Confirm-Delete'), 0)
 
 Mobile.closeApplication()
 

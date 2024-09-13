@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update Category</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9854e55d-a841-4a05-99b7-dd465e2ca183</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fce8b45f-abb1-4038-acf4-eed9141293c0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Diri Sendiri'</defaultValue>
+      <description></description>
+      <id>fce8b45f-abb1-4038-acf4-eed9141293c0</id>
+      <masked>false</masked>
+      <name>updateCategory</name>
+   </variable>
+</TestCaseEntity>
