@@ -28,21 +28,13 @@ WebUI.callTestCase(findTestCase('Blocks/Add Task'), [('taskTitle') : 'Katalon Cl
 
 Mobile.tap(findTestObject('Object Repository/page_Dashboard/android.widget.button_kebab-menu'), 0)
 
-Mobile.tap(findTestObject('Object Repository/page_Dashboard/android.widget.button_Edit'), 0)
+Mobile.tap(findTestObject('page_Dashboard/android.widget.button_Delete'), 0)
 
-'Masih Error'
-Mobile.setText(findTestObject('page_Edit-Task/android.widget.updateTitleTask - Katalon Class'), updateTitleTask, 0)
+Mobile.verifyElementVisible(findTestObject('page_Dashboard/android.widget.lbl_Delete-Task'), 0)
 
-Mobile.setText(findTestObject('Object Repository/page_Edit-Task/android.widget.input_updateTitleDesc'), updateTaskDesc, 
-    0)
+Mobile.tap(findTestObject('page_Dashboard/android.widget.Button_Confirm-DELETE'), 0)
 
-Mobile.tap(findTestObject('page_Add-Task/android.widget.submitButton'), 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/page_Edit-Task/android.widget.TextView - Katalon Final Task'), 
-    updateTitleTask)
-
-Mobile.verifyElementText(findTestObject('Object Repository/page_Edit-Task/android.widget.TextView - Mobile, Web, API'), 
-    updateTaskDesc)
+Mobile.verifyElementVisible(findTestObject('page_Dashboard/android.widget.lbl_ToDo'), 0)
 
 Mobile.closeApplication()
 

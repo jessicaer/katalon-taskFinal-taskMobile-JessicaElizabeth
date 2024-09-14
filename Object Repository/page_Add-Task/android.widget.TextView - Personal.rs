@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>android.widget.input_updateTitleTask</name>
+   <name>android.widget.TextView - Personal</name>
    <tag></tag>
-   <elementGuidId>537e06f0-e7a2-4178-b423-4982947aedb3</elementGuidId>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -12,32 +12,32 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.widget.EditText</value>
-      <webElementGuid>48549a0f-01c4-4698-9839-c271d30f8b24</webElementGuid>
+      <value>android.widget.TextView</value>
+      <webElementGuid>1052f705-e83d-4e2f-b157-eb2c35f8d799</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>2</value>
-      <webElementGuid>5915cf39-e05b-446c-9155-912d32d04963</webElementGuid>
+      <value>3</value>
+      <webElementGuid>c3ee9a64-8dca-4ec8-a4d4-3a704290dae8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Katalon Task</value>
-      <webElementGuid>78307ab2-fb62-4c12-84db-05c7525292f5</webElementGuid>
+      <value>Personal</value>
+      <webElementGuid>539ab56d-ba8b-42aa-b674-cccf53122f79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.avinashproduct.todo:id/edtTitle</value>
-      <webElementGuid>c844090a-9b48-4de7-a78d-139a34f599bb</webElementGuid>
+      <value>com.avinashproduct.todo:id/txtShowCategoryRow</value>
+      <webElementGuid>6f50388a-eff0-4c03-922d-009634577956</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.avinashproduct.todo</value>
-      <webElementGuid>0a051789-776f-4538-b9fa-faa1040de41e</webElementGuid>
+      <webElementGuid>85439d3d-2fda-42c2-b874-b95c21781215</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>82b168f8-87f9-4337-a60f-61eb265dadd3</webElementGuid>
+      <webElementGuid>4bf30016-037a-4eef-9549-4e63d9d0cec2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,15 +61,15 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3dd6b395-8e21-4b54-a182-a23bb608c762</webElementGuid>
+      <webElementGuid>20ba2e5f-64f7-494a-928f-14051ca1f615</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>3f78ed6b-c975-4b5d-b7dd-9f0f0422dbc2</webElementGuid>
+      <value>false</value>
+      <webElementGuid>faa1c0d5-091e-468e-b212-b06d9811c08e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,23 +77,23 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>51674fd0-1d9a-4557-ab21-9288999a2fbe</webElementGuid>
+      <webElementGuid>82c16c37-5323-4866-9853-50e98e08252b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focusable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>5b808932-0694-4287-b645-068a4e496eaf</webElementGuid>
+      <value>false</value>
+      <webElementGuid>9a02fad1-857e-42d0-aaa9-ccb0cac5b8ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focused</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>7c185293-0fbd-463d-a201-d46680bc5a15</webElementGuid>
+      <value>false</value>
+      <webElementGuid>12c1182f-4e7b-4cc5-8206-cba73aa26a16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,15 +101,15 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>36c0d568-ddcc-479c-a07b-580449b52c79</webElementGuid>
+      <webElementGuid>fd2e6799-cfc6-49a8-ac04-82dd0ebc379c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>long-clickable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>6020d2fb-8fad-41d6-b3a2-de3d48d6ad77</webElementGuid>
+      <value>false</value>
+      <webElementGuid>b5a652ee-21d1-4e97-8473-eb9f68f5f384</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>58f4127a-6f71-4753-82f4-c290dd0c2e7d</webElementGuid>
+      <webElementGuid>1cad0054-4552-435d-a026-b41bebcf64c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,47 +125,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>fb6d4f74-8efc-4709-b422-d71a29670de1</webElementGuid>
+      <webElementGuid>8f06303c-9615-4163-bdfd-e50aaba426cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>44</value>
-      <webElementGuid>0b7f6e25-a341-46b2-9730-3dcad18860f5</webElementGuid>
+      <value>905</value>
+      <webElementGuid>22ea614b-0768-41c2-9858-53738b6ca1c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>351</value>
-      <webElementGuid>7da118f2-1eac-45f7-a0d5-10e78b013682</webElementGuid>
+      <value>415</value>
+      <webElementGuid>716a61f2-4893-4e14-8baa-ebcb162bf609</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>992</value>
-      <webElementGuid>fab2b360-3380-411c-9312-27de279465c3</webElementGuid>
+      <value>117</value>
+      <webElementGuid>21dc9d16-70b5-447b-8732-e61445d78ead</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>124</value>
-      <webElementGuid>14db068a-b7d9-43ad-8fa1-3762f868f302</webElementGuid>
+      <value>41</value>
+      <webElementGuid>c28a7834-f300-47cd-bc2a-f26e62d4913c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[44,351][1036,475]</value>
-      <webElementGuid>e19f8054-f6eb-4200-9515-9624cb09faee</webElementGuid>
+      <value>[905,415][1022,456]</value>
+      <webElementGuid>61fce355-7329-4b8b-9fb2-1b050b4734f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -173,33 +173,28 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>bd40c316-596b-46a3-ab71-64210ad9c1cc</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>hint</name>
-      <type>Main</type>
-      <value>Enter task title</value>
-      <webElementGuid>074e28f3-540d-4954-ba25-43d94244179e</webElementGuid>
+      <webElementGuid>92021bf7-a71a-42f8-8b5f-a6a7a5ce85b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[1]</value>
-      <webElementGuid>839768a8-bc99-4901-8138-9085983c4501</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.support.v7.widget.RecyclerView[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[3]</value>
+      <webElementGuid>846c8d03-b702-42ea-a032-3ea89b41b2d0</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.EditText' and (@text = 'Katalon Task' or . = 'Katalon Task') and @resource-id = 'com.avinashproduct.todo:id/edtTitle']</locator>
+   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Personal' or . = 'Personal') and @resource-id = 'com.avinashproduct.todo:id/txtShowCategoryRow']</locator>
    <locatorCollection>
       <entry>
+         <value>//*[@class = 'android.widget.TextView' and (@text = 'Personal' or . = 'Personal') and @resource-id = 'com.avinashproduct.todo:id/txtShowCategoryRow']</value>
+      </entry>
+      <entry>
          <key>CLASS_NAME</key>
-         <value>android.widget.EditText</value>
+         <value>android.widget.TextView</value>
       </entry>
       <entry>
          <key>IOS_PREDICATE_STRING</key>
-         <value>enabled == 1 AND hint == 'Enter task title'</value>
+         <value></value>
       </entry>
       <entry>
          <key>IMAGE</key>
@@ -207,7 +202,7 @@
       </entry>
       <entry>
          <key>ID</key>
-         <value>com.avinashproduct.todo:id/edtTitle</value>
+         <value>com.avinashproduct.todo:id/txtShowCategoryRow</value>
       </entry>
       <entry>
          <key>ANDROID_VIEWTAG</key>
@@ -219,11 +214,11 @@
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.widget.EditText' and (@text = 'Katalon Task' or . = 'Katalon Task') and @resource-id = 'com.avinashproduct.todo:id/edtTitle']</value>
+         <value>//*[@class = 'android.widget.TextView' and (@text = 'Personal' or . = 'Personal') and @resource-id = 'com.avinashproduct.todo:id/txtShowCategoryRow']</value>
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.EditText&quot;).text(&quot;Katalon Task&quot;).resourceId(&quot;com.avinashproduct.todo:id/edtTitle&quot;).packageName(&quot;com.avinashproduct.todo&quot;).enabled(true).clickable(true).longClickable(true).checkable(false).checked(false).focusable(true).focused(true).scrollable(false).selected(false).index(2)</value>
+         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;Personal&quot;).resourceId(&quot;com.avinashproduct.todo:id/txtShowCategoryRow&quot;).packageName(&quot;com.avinashproduct.todo&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(3)</value>
       </entry>
       <entry>
          <key>ACCESSIBILITY</key>
@@ -231,7 +226,7 @@
       </entry>
       <entry>
          <key>IOS_CLASS_CHAIN</key>
-         <value>**[`enabled == 1 AND hint == 'Enter task title'`]</value>
+         <value></value>
       </entry>
       <entry>
          <key>NAME</key>
@@ -239,7 +234,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[1]</value>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.support.v7.widget.RecyclerView[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[3]</value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
