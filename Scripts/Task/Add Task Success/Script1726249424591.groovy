@@ -45,7 +45,41 @@ Mobile.tap(findTestObject('Object Repository/page_Add-Task/android.widget.button
 
 Mobile.tap(findTestObject('Object Repository/page_Add-Task/android.widget.Spinner'), 0)
 
+'Memilih Category'
 Mobile.tap(findTestObject('Object Repository/page_Add-Task/android.widget.CheckedTextView - Personal'), 0)
+//def select_dropdown = category
+//switch(select_dropdown) {
+//	case select_dropdown = 'Banking':
+//		println(select_dropdown)
+//		Mobile.tap(findTestObject('Object Repository/page_Add-Task/android.widget.CheckedTextView - Banking'), 0)
+//		break
+//
+//	case select_dropdown = 'Business':
+//		println(select_dropdown)
+//		Mobile.tap(findTestObject('Object Repository/page_Add-Task/android.widget.CheckedTextView - Business'), 0)
+//		break
+//
+//	case select_dropdown = 'Insurance':
+//		println(select_dropdown)
+//		Mobile.tap(findTestObject('Object Repository/page_Add-Task/android.widget.CheckedTextView - Insurance'), 0)
+//		break
+//		
+//	case select_dropdown = 'Personal':
+//		println(select_radio)
+//		Mobile.tap(findTestObject('Object Repository/page_Add-Task/android.widget.CheckedTextView - Personal'), 0)
+//		break
+//		
+//	case select_dropdown = 'Shopping':
+//		println(select_radio)
+//		Mobile.tap(findTestObject('Object Repository/page_Add-Task/android.widget.CheckedTextView - Shopping'), 0)
+//		break
+//		
+//	default:
+//		println(select_dropdown)
+//		Mobile.tap(findTestObject('Object Repository/page_Add-Task/android.widget.CheckedTextView - Banking'), 0)
+//		break
+//}
+
 
 Mobile.tap(findTestObject('Object Repository/page_Add-Task/android.widget.submitButton'), 0)
 
