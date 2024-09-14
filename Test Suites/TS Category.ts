@@ -16,20 +16,22 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Category/Add Category</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8800bf51-f409-4067-8eac-2e133d216a60</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Katalon Data/data-category</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>8800bf51-f409-4067-8eac-2e133d216a60</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>newCategory</value>
          <variableId>ec2e24d2-a294-436d-aea5-1f109233c3ca</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>54b6bd3c-f1a1-4479-9ee8-64b543916054</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Category/Delete Category</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>275ed242-b8df-4c54-98c3-5ad7aa8e037c</guid>
@@ -43,5 +45,12 @@
          <value></value>
          <variableId>fce8b45f-abb1-4038-acf4-eed9141293c0</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>54b6bd3c-f1a1-4479-9ee8-64b543916054</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Category/Delete Category</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

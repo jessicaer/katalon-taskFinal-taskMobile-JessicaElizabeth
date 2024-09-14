@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS Category" time="354.861" tests="6" failures="0" errors="0">
+   <testsuite name="TS Category" tests="6" failures="0" errors="0" time="354.861" skipped="0" timestamp="14-09-2024T12:32:07" hostname="Acer Aspire Z476 - DESKTOP-5S7EQUT.lan" id="Test Suites/TS Category">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2003J15SC (Android 10)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="E:\\Bootcamp\\QA\\Katalon\\Tugas\\katalon-taskFinal-taskMobile-JessicaElizabeth\\Reports\\20240914_123150\\TS Category\\20240914_123150"/>
+         <property name="logFiles" value="E:\\Bootcamp\\QA\\Katalon\\Tugas\\katalon-taskFinal-taskMobile-JessicaElizabeth\\Reports\\20240914_123150\\TS Category\\20240914_123150\\appium.log, E:\\Bootcamp\\QA\\Katalon\\Tugas\\katalon-taskFinal-taskMobile-JessicaElizabeth\\Reports\\20240914_123150\\TS Category\\20240914_123150\\appium_error.log, E:\\Bootcamp\\QA\\Katalon\\Tugas\\katalon-taskFinal-taskMobile-JessicaElizabeth\\Reports\\20240914_123150\\TS Category\\20240914_123150\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer Aspire Z476 - DESKTOP-5S7EQUT.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.11.3&quot;}}}"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.11.3"/>
+         <property name="deviceModel" value="M2003J15SC"/>
+         <property name="hostAddress" value="192.168.8.137"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="19f1f53a0403"/>
+         <property name="deviceName" value="Xiaomi M2003J15SC (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Category/Add Category" time="67.061" classname="Test Cases/Category/Add Category" status="PASSED">
+         <system-out><![CDATA[14-09-2024T12:32:08 - [TEST_CASE][PASSED] - Test Cases/Category/Add Category: Test Cases/Category/Add Category
+
+14-09-2024T12:32:10 - [TEST_STEP][PASSED] - startApplication(apk, true): Started application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T12:32:11 - [MESSAGE][INFO] - Starting application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T12:32:11 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+14-09-2024T12:32:21 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+14-09-2024T12:32:21 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\Acer Aspire Z476\.appium
+
+14-09-2024T12:32:21 - [MESSAGE][INFO] - appium outlog: E:\Bootcamp\QA\Katalon\Tugas\katalon-taskFinal-taskMobile-JessicaElizabeth\Reports\20240914_123150\TS Category\20240914_123150\appium.log
+
+14-09-2024T12:32:21 - [MESSAGE][INFO] - appium errlog: E:\Bootcamp\QA\Katalon\Tugas\katalon-taskFinal-taskMobile-JessicaElizabeth\Reports\20240914_123150\TS Category\20240914_123150\appium_error.log
+
+14-09-2024T12:32:31 - [MESSAGE][INFO] - Appium server started on port 54,174
+
+14-09-2024T12:32:54 - [MESSAGE][PASSED] - Started application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T12:32:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Dashboard/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.TextView - Skip'
+
+14-09-2024T12:32:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:32:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.TextView - Skip'
+
+14-09-2024T12:32:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Dashboard/android.widget.lbl_ToDo"), 0): Element 'Object Repository/page_Dashboard/android.widget.lbl_ToDo' is visible
+
+14-09-2024T12:32:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:32:58 - [MESSAGE][PASSED] - Element 'Object Repository/page_Dashboard/android.widget.lbl_ToDo' is visible
+
+14-09-2024T12:32:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Dashboard/android.widget.button-Menu"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.button-Menu'
+
+14-09-2024T12:32:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:32:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.button-Menu'
+
+14-09-2024T12:32:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Category/android.widget.menu-Category"), 0): Tapped on element 'Object Repository/page_Category/android.widget.menu-Category'
+
+14-09-2024T12:32:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:32:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Category/android.widget.menu-Category'
+
+14-09-2024T12:32:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/page_Category/android.widget.lbl_Category"), 0): Element 'Object Repository/page_Category/android.widget.lbl_Category' is visible
+
+14-09-2024T12:32:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:33:01 - [MESSAGE][PASSED] - Element 'Object Repository/page_Category/android.widget.lbl_Category' is visible
+
+14-09-2024T12:33:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Category/android.widget.button-Add-New-Category"), 0): Tapped on element 'Object Repository/page_Category/android.widget.button-Add-New-Category'
+
+14-09-2024T12:33:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:33:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Category/android.widget.button-Add-New-Category'
+
+14-09-2024T12:33:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Category/android.widget.input_Category"), newCategory, 0): Text 'School' has been set to element 'Object Repository/page_Category/android.widget.input_Category'
+
+14-09-2024T12:33:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:33:06 - [MESSAGE][PASSED] - Text 'School' has been set to element 'Object Repository/page_Category/android.widget.input_Category'
+
+14-09-2024T12:33:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Category/android.widget.button-Add"), 0): Tapped on element 'Object Repository/page_Category/android.widget.button-Add'
+
+14-09-2024T12:33:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:33:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Category/android.widget.button-Add'
+
+14-09-2024T12:33:07 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+14-09-2024T12:33:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+14-09-2024T12:33:12 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+14-09-2024T12:33:15 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Add Category" time="70.729" classname="Test Cases/Category/Add Category" status="PASSED">
+         <system-out><![CDATA[14-09-2024T12:33:15 - [TEST_CASE][PASSED] - Test Cases/Category/Add Category: Test Cases/Category/Add Category
+
+14-09-2024T12:33:15 - [TEST_STEP][PASSED] - startApplication(apk, true): Started application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T12:33:15 - [MESSAGE][INFO] - Starting application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T12:33:16 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+14-09-2024T12:33:25 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+14-09-2024T12:33:25 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\Acer Aspire Z476\.appium
+
+14-09-2024T12:33:25 - [MESSAGE][INFO] - appium outlog: E:\Bootcamp\QA\Katalon\Tugas\katalon-taskFinal-taskMobile-JessicaElizabeth\Reports\20240914_123150\TS Category\20240914_123150\appium.log
+
+14-09-2024T12:33:25 - [MESSAGE][INFO] - appium errlog: E:\Bootcamp\QA\Katalon\Tugas\katalon-taskFinal-taskMobile-JessicaElizabeth\Reports\20240914_123150\TS Category\20240914_123150\appium_error.log
+
+14-09-2024T12:33:32 - [MESSAGE][INFO] - Appium server started on port 54,450
+
+14-09-2024T12:34:05 - [MESSAGE][PASSED] - Started application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T12:34:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Dashboard/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.TextView - Skip'
+
+14-09-2024T12:34:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:34:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.TextView - Skip'
+
+14-09-2024T12:34:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Dashboard/android.widget.lbl_ToDo"), 0): Element 'Object Repository/page_Dashboard/android.widget.lbl_ToDo' is visible
+
+14-09-2024T12:34:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:34:09 - [MESSAGE][PASSED] - Element 'Object Repository/page_Dashboard/android.widget.lbl_ToDo' is visible
+
+14-09-2024T12:34:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Dashboard/android.widget.button-Menu"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.button-Menu'
+
+14-09-2024T12:34:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:34:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.button-Menu'
+
+14-09-2024T12:34:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Category/android.widget.menu-Category"), 0): Tapped on element 'Object Repository/page_Category/android.widget.menu-Category'
+
+14-09-2024T12:34:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:34:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Category/android.widget.menu-Category'
+
+14-09-2024T12:34:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/page_Category/android.widget.lbl_Category"), 0): Element 'Object Repository/page_Category/android.widget.lbl_Category' is visible
+
+14-09-2024T12:34:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:34:13 - [MESSAGE][PASSED] - Element 'Object Repository/page_Category/android.widget.lbl_Category' is visible
+
+14-09-2024T12:34:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Category/android.widget.button-Add-New-Category"), 0): Tapped on element 'Object Repository/page_Category/android.widget.button-Add-New-Category'
+
+14-09-2024T12:34:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:34:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Category/android.widget.button-Add-New-Category'
+
+14-09-2024T12:34:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Category/android.widget.input_Category"), newCategory, 0): Text 'Work' has been set to element 'Object Repository/page_Category/android.widget.input_Category'
+
+14-09-2024T12:34:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:34:17 - [MESSAGE][PASSED] - Text 'Work' has been set to element 'Object Repository/page_Category/android.widget.input_Category'
+
+14-09-2024T12:34:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Category/android.widget.button-Add"), 0): Tapped on element 'Object Repository/page_Category/android.widget.button-Add'
+
+14-09-2024T12:34:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:34:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Category/android.widget.button-Add'
+
+14-09-2024T12:34:18 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+14-09-2024T12:34:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+14-09-2024T12:34:23 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+14-09-2024T12:34:26 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Add Category" time="60.904" classname="Test Cases/Category/Add Category" status="PASSED">
+         <system-out><![CDATA[14-09-2024T12:34:26 - [TEST_CASE][PASSED] - Test Cases/Category/Add Category: Test Cases/Category/Add Category
+
+14-09-2024T12:34:26 - [TEST_STEP][PASSED] - startApplication(apk, true): Started application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T12:34:26 - [MESSAGE][INFO] - Starting application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T12:34:27 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+14-09-2024T12:34:36 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+14-09-2024T12:34:36 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\Acer Aspire Z476\.appium
+
+14-09-2024T12:34:36 - [MESSAGE][INFO] - appium outlog: E:\Bootcamp\QA\Katalon\Tugas\katalon-taskFinal-taskMobile-JessicaElizabeth\Reports\20240914_123150\TS Category\20240914_123150\appium.log
+
+14-09-2024T12:34:36 - [MESSAGE][INFO] - appium errlog: E:\Bootcamp\QA\Katalon\Tugas\katalon-taskFinal-taskMobile-JessicaElizabeth\Reports\20240914_123150\TS Category\20240914_123150\appium_error.log
+
+14-09-2024T12:34:41 - [MESSAGE][INFO] - Appium server started on port 54,727
+
+14-09-2024T12:35:05 - [MESSAGE][PASSED] - Started application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T12:35:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Dashboard/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.TextView - Skip'
+
+14-09-2024T12:35:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:35:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.TextView - Skip'
+
+14-09-2024T12:35:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Dashboard/android.widget.lbl_ToDo"), 0): Element 'Object Repository/page_Dashboard/android.widget.lbl_ToDo' is visible
+
+14-09-2024T12:35:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:35:09 - [MESSAGE][PASSED] - Element 'Object Repository/page_Dashboard/android.widget.lbl_ToDo' is visible
+
+14-09-2024T12:35:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Dashboard/android.widget.button-Menu"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.button-Menu'
+
+14-09-2024T12:35:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:35:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.button-Menu'
+
+14-09-2024T12:35:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Category/android.widget.menu-Category"), 0): Tapped on element 'Object Repository/page_Category/android.widget.menu-Category'
+
+14-09-2024T12:35:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:35:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Category/android.widget.menu-Category'
+
+14-09-2024T12:35:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/page_Category/android.widget.lbl_Category"), 0): Element 'Object Repository/page_Category/android.widget.lbl_Category' is visible
+
+14-09-2024T12:35:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:35:13 - [MESSAGE][PASSED] - Element 'Object Repository/page_Category/android.widget.lbl_Category' is visible
+
+14-09-2024T12:35:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Category/android.widget.button-Add-New-Category"), 0): Tapped on element 'Object Repository/page_Category/android.widget.button-Add-New-Category'
+
+14-09-2024T12:35:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:35:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Category/android.widget.button-Add-New-Category'
+
+14-09-2024T12:35:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Category/android.widget.input_Category"), newCategory, 0): Text 'Hobbies' has been set to element 'Object Repository/page_Category/android.widget.input_Category'
+
+14-09-2024T12:35:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:35:17 - [MESSAGE][PASSED] - Text 'Hobbies' has been set to element 'Object Repository/page_Category/android.widget.input_Category'
+
+14-09-2024T12:35:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Category/android.widget.button-Add"), 0): Tapped on element 'Object Repository/page_Category/android.widget.button-Add'
+
+14-09-2024T12:35:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:35:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Category/android.widget.button-Add'
+
+14-09-2024T12:35:18 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+14-09-2024T12:35:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+14-09-2024T12:35:23 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+14-09-2024T12:35:27 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Add Category" time="55.845" classname="Test Cases/Category/Add Category" status="PASSED">
+         <system-out><![CDATA[14-09-2024T12:35:27 - [TEST_CASE][PASSED] - Test Cases/Category/Add Category: Test Cases/Category/Add Category
+
+14-09-2024T12:35:27 - [TEST_STEP][PASSED] - startApplication(apk, true): Started application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T12:35:27 - [MESSAGE][INFO] - Starting application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T12:35:28 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+14-09-2024T12:35:32 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+14-09-2024T12:35:32 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\Acer Aspire Z476\.appium
+
+14-09-2024T12:35:32 - [MESSAGE][INFO] - appium outlog: E:\Bootcamp\QA\Katalon\Tugas\katalon-taskFinal-taskMobile-JessicaElizabeth\Reports\20240914_123150\TS Category\20240914_123150\appium.log
+
+14-09-2024T12:35:32 - [MESSAGE][INFO] - appium errlog: E:\Bootcamp\QA\Katalon\Tugas\katalon-taskFinal-taskMobile-JessicaElizabeth\Reports\20240914_123150\TS Category\20240914_123150\appium_error.log
+
+14-09-2024T12:35:37 - [MESSAGE][INFO] - Appium server started on port 55,006
+
+14-09-2024T12:36:03 - [MESSAGE][PASSED] - Started application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T12:36:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Dashboard/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.TextView - Skip'
+
+14-09-2024T12:36:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:36:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.TextView - Skip'
+
+14-09-2024T12:36:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Dashboard/android.widget.lbl_ToDo"), 0): Element 'Object Repository/page_Dashboard/android.widget.lbl_ToDo' is visible
+
+14-09-2024T12:36:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:36:07 - [MESSAGE][PASSED] - Element 'Object Repository/page_Dashboard/android.widget.lbl_ToDo' is visible
+
+14-09-2024T12:36:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Dashboard/android.widget.button-Menu"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.button-Menu'
+
+14-09-2024T12:36:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:36:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.button-Menu'
+
+14-09-2024T12:36:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Category/android.widget.menu-Category"), 0): Tapped on element 'Object Repository/page_Category/android.widget.menu-Category'
+
+14-09-2024T12:36:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:36:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Category/android.widget.menu-Category'
+
+14-09-2024T12:36:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/page_Category/android.widget.lbl_Category"), 0): Element 'Object Repository/page_Category/android.widget.lbl_Category' is visible
+
+14-09-2024T12:36:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:36:09 - [MESSAGE][PASSED] - Element 'Object Repository/page_Category/android.widget.lbl_Category' is visible
+
+14-09-2024T12:36:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Category/android.widget.button-Add-New-Category"), 0): Tapped on element 'Object Repository/page_Category/android.widget.button-Add-New-Category'
+
+14-09-2024T12:36:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:36:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Category/android.widget.button-Add-New-Category'
+
+14-09-2024T12:36:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Category/android.widget.input_Category"), newCategory, 0): Text 'Priority' has been set to element 'Object Repository/page_Category/android.widget.input_Category'
+
+14-09-2024T12:36:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:36:13 - [MESSAGE][PASSED] - Text 'Priority' has been set to element 'Object Repository/page_Category/android.widget.input_Category'
+
+14-09-2024T12:36:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Category/android.widget.button-Add"), 0): Tapped on element 'Object Repository/page_Category/android.widget.button-Add'
+
+14-09-2024T12:36:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:36:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Category/android.widget.button-Add'
+
+14-09-2024T12:36:14 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+14-09-2024T12:36:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+14-09-2024T12:36:19 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+14-09-2024T12:36:23 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Update Category" time="53.152" classname="Test Cases/Category/Update Category" status="PASSED">
+         <system-out><![CDATA[14-09-2024T12:36:23 - [TEST_CASE][PASSED] - Test Cases/Category/Update Category: Test Cases/Category/Update Category
+
+14-09-2024T12:36:23 - [TEST_STEP][PASSED] - startApplication(apk, true): Started application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T12:36:23 - [MESSAGE][INFO] - Starting application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T12:36:24 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+14-09-2024T12:36:33 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+14-09-2024T12:36:33 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\Acer Aspire Z476\.appium
+
+14-09-2024T12:36:33 - [MESSAGE][INFO] - appium outlog: E:\Bootcamp\QA\Katalon\Tugas\katalon-taskFinal-taskMobile-JessicaElizabeth\Reports\20240914_123150\TS Category\20240914_123150\appium.log
+
+14-09-2024T12:36:33 - [MESSAGE][INFO] - appium errlog: E:\Bootcamp\QA\Katalon\Tugas\katalon-taskFinal-taskMobile-JessicaElizabeth\Reports\20240914_123150\TS Category\20240914_123150\appium_error.log
+
+14-09-2024T12:36:38 - [MESSAGE][INFO] - Appium server started on port 55,266
+
+14-09-2024T12:37:00 - [MESSAGE][PASSED] - Started application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T12:37:00 - [TEST_STEP][PASSED] - tap(findTestObject("page_Dashboard/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.TextView - Skip'
+
+14-09-2024T12:37:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:37:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.TextView - Skip'
+
+14-09-2024T12:37:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Dashboard/android.widget.lbl_ToDo"), 0): Element 'Object Repository/page_Dashboard/android.widget.lbl_ToDo' is visible
+
+14-09-2024T12:37:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:37:03 - [MESSAGE][PASSED] - Element 'Object Repository/page_Dashboard/android.widget.lbl_ToDo' is visible
+
+14-09-2024T12:37:03 - [TEST_STEP][PASSED] - tap(findTestObject("page_Dashboard/android.widget.button-Menu"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.button-Menu'
+
+14-09-2024T12:37:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:37:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.button-Menu'
+
+14-09-2024T12:37:04 - [TEST_STEP][PASSED] - tap(findTestObject("page_Category/android.widget.menu-Category"), 0): Tapped on element 'Object Repository/page_Category/android.widget.menu-Category'
+
+14-09-2024T12:37:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:37:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Category/android.widget.menu-Category'
+
+14-09-2024T12:37:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/page_Category/android.widget.lbl_Category"), 0): Element 'Object Repository/page_Category/android.widget.lbl_Category' is visible
+
+14-09-2024T12:37:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:37:06 - [MESSAGE][PASSED] - Element 'Object Repository/page_Category/android.widget.lbl_Category' is visible
+
+14-09-2024T12:37:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Category/android.widget.btn_Edit"), 0): Tapped on element 'Object Repository/page_Category/android.widget.btn_Edit'
+
+14-09-2024T12:37:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:37:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Category/android.widget.btn_Edit'
+
+14-09-2024T12:37:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Category/android.widget.EditText - Personal"), updateCategory, 0): Text 'Diri Sendiri' has been set to element 'Object Repository/page_Category/android.widget.EditText - Personal'
+
+14-09-2024T12:37:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:37:10 - [MESSAGE][PASSED] - Text 'Diri Sendiri' has been set to element 'Object Repository/page_Category/android.widget.EditText - Personal'
+
+14-09-2024T12:37:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Category/android.widget.btn_Update"), 0): Tapped on element 'Object Repository/page_Category/android.widget.btn_Update'
+
+14-09-2024T12:37:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:37:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Category/android.widget.btn_Update'
+
+14-09-2024T12:37:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/page_Category/android.widget.lbl_Category"), 0): Element 'Object Repository/page_Category/android.widget.lbl_Category' is visible
+
+14-09-2024T12:37:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:37:12 - [MESSAGE][PASSED] - Element 'Object Repository/page_Category/android.widget.lbl_Category' is visible
+
+14-09-2024T12:37:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page_Category/android.widget.TextView - Diri Sendiri"), updateCategory): Actual text and expected text of test object 'Object Repository/page_Category/android.widget.TextView - Diri Sendiri' are matched.
+
+14-09-2024T12:37:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page_Category/android.widget.TextView - Diri Sendiri' are matched.
+
+14-09-2024T12:37:13 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+14-09-2024T12:37:16 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Delete Category" time="45.96" classname="Test Cases/Category/Delete Category" status="PASSED">
+         <system-out><![CDATA[14-09-2024T12:37:16 - [TEST_CASE][PASSED] - Test Cases/Category/Delete Category: Test Cases/Category/Delete Category
+
+14-09-2024T12:37:16 - [TEST_STEP][PASSED] - startApplication(apk, true): Started application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T12:37:16 - [MESSAGE][INFO] - Starting application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T12:37:17 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+14-09-2024T12:37:21 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+14-09-2024T12:37:21 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\Acer Aspire Z476\.appium
+
+14-09-2024T12:37:21 - [MESSAGE][INFO] - appium outlog: E:\Bootcamp\QA\Katalon\Tugas\katalon-taskFinal-taskMobile-JessicaElizabeth\Reports\20240914_123150\TS Category\20240914_123150\appium.log
+
+14-09-2024T12:37:21 - [MESSAGE][INFO] - appium errlog: E:\Bootcamp\QA\Katalon\Tugas\katalon-taskFinal-taskMobile-JessicaElizabeth\Reports\20240914_123150\TS Category\20240914_123150\appium_error.log
+
+14-09-2024T12:37:26 - [MESSAGE][INFO] - Appium server started on port 55,542
+
+14-09-2024T12:37:47 - [MESSAGE][PASSED] - Started application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T12:37:47 - [TEST_STEP][PASSED] - tap(findTestObject("page_Dashboard/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.TextView - Skip'
+
+14-09-2024T12:37:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:37:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.TextView - Skip'
+
+14-09-2024T12:37:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Dashboard/android.widget.lbl_ToDo"), 0): Element 'Object Repository/page_Dashboard/android.widget.lbl_ToDo' is visible
+
+14-09-2024T12:37:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:37:51 - [MESSAGE][PASSED] - Element 'Object Repository/page_Dashboard/android.widget.lbl_ToDo' is visible
+
+14-09-2024T12:37:51 - [TEST_STEP][PASSED] - tap(findTestObject("page_Dashboard/android.widget.button-Menu"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.button-Menu'
+
+14-09-2024T12:37:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:37:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.button-Menu'
+
+14-09-2024T12:37:51 - [TEST_STEP][PASSED] - tap(findTestObject("page_Category/android.widget.menu-Category"), 0): Tapped on element 'Object Repository/page_Category/android.widget.menu-Category'
+
+14-09-2024T12:37:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:37:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Category/android.widget.menu-Category'
+
+14-09-2024T12:37:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/page_Category/android.widget.lbl_Category"), 0): Element 'Object Repository/page_Category/android.widget.lbl_Category' is visible
+
+14-09-2024T12:37:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:37:55 - [MESSAGE][PASSED] - Element 'Object Repository/page_Category/android.widget.lbl_Category' is visible
+
+14-09-2024T12:37:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Category/android.widget.btn_Delete"), 0): Tapped on element 'Object Repository/page_Category/android.widget.btn_Delete'
+
+14-09-2024T12:37:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:37:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Category/android.widget.btn_Delete'
+
+14-09-2024T12:37:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Category/android.widget.btn-Confirm-Delete"), 0): Tapped on element 'Object Repository/page_Category/android.widget.btn-Confirm-Delete'
+
+14-09-2024T12:37:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T12:37:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Category/android.widget.btn-Confirm-Delete'
+
+14-09-2024T12:37:58 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+14-09-2024T12:38:02 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-09-2024T12:32:07 - [TEST_SUITE][PASSED] - TS Category: Test Cases/Category/Delete Category]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

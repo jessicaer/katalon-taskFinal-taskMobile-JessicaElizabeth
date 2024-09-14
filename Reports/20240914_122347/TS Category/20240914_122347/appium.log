@@ -1,0 +1,387 @@
+[38;5;112m[Appium][0m Welcome to Appium v2.11.3
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m52585[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:52585/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://192.168.8.137:52585/wd/hub
+	http://127.0.0.1:52585/wd/hub (only accessible from the same host)
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@3.7.9 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m28 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appium:systemPort":52584,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":true,"appium:platformVersion":"10","appium:noReset":false,"appium:udid":"19f1f53a0403","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","platformName":"Android","appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"10","appium:systemPort":52584,"appium:udid":"19f1f53a0403","platformName":"android"}]}}[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\Acer Aspire Z476\.appium\node_modules\appium-uiautomator2-driver
+[38;5;106m[AppiumDriver@337c][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.9) session
+[38;5;106m[AppiumDriver@337c][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;106m[AppiumDriver@337c][0m Appium's BaseDriver version is 9.11.3
+[38;5;106m[AppiumDriver@337c][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;22m[bf17dc0a][0m[38;5;-96m[AndroidUiautomator2Driver@cbfb][0m Session created with session id: bf17dc0a-0c29-4a80-aff5-41167f7596db
+[38;5;22m[bf17dc0a][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk' (newest first):
+[38;5;22m[bf17dc0a][0m[38;5;229m[ADB][0m     C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\build-tools\29.0.3
+[38;5;22m[bf17dc0a][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;22m[bf17dc0a][0m[38;5;-96m[AndroidUiautomator2Driver@cbfb][0m Retrieving device list
+[38;5;22m[bf17dc0a][0m[38;5;-96m[AndroidUiautomator2Driver@cbfb][0m Using device: 19f1f53a0403
+[38;5;22m[bf17dc0a][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;22m[bf17dc0a][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+[38;5;22m[bf17dc0a][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;22m[bf17dc0a][0m[38;5;-96m[AndroidUiautomator2Driver@cbfb][0m Relaxing hidden api policy
+[38;5;22m[bf17dc0a][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;22m[bf17dc0a][0m[38;5;229m[ADB][0m Package name: 'com.avinashproduct.todo'
+[38;5;22m[bf17dc0a][0m[38;5;229m[ADB][0m Main activity name: 'com.avinashproduct.todo.SplashScreenActivity'
+[38;5;22m[bf17dc0a][0m[38;5;229m[ADB][0m Using 'apksigner.jar' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[38;5;22m[bf17dc0a][0m[38;5;-96m[AndroidUiautomator2Driver@cbfb][0m Server packages are not going to be (re)installed
+[38;5;22m[bf17dc0a][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;22m[bf17dc0a][0m[38;5;229m[ADB][0m 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk' is signed with a non-default certificate
+[38;5;22m[bf17dc0a][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;22m[bf17dc0a][0m[38;5;229m[ADB][0m The application at 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;22m[bf17dc0a][0m[38;5;-96m[AndroidUiautomator2Driver@cbfb][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[38;5;22m[bf17dc0a][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;22m[bf17dc0a][0m[38;5;-96m[AndroidUiautomator2Driver@cbfb][0m Restoring hidden api policy to the device default configuration
+[38;5;22m[bf17dc0a][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m21208 ms - 1492[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appium:systemPort":52739,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":true,"appium:platformVersion":"10","appium:noReset":false,"appium:udid":"19f1f53a0403","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","platformName":"Android","appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"10","appium:systemPort":52739,"appium:udid":"19f1f53a0403","platformName":"android"}]}}[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\Acer Aspire Z476\.appium\node_modules\appium-uiautomator2-driver
+[38;5;106m[AppiumDriver@337c][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.9) session
+[38;5;106m[AppiumDriver@337c][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;106m[AppiumDriver@337c][0m Appium's BaseDriver version is 9.11.3
+[38;5;106m[AppiumDriver@337c][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;229m[9d361523][0m[38;5;-49m[AndroidUiautomator2Driver@b1af][0m Session created with session id: 9d361523-0f8f-40a0-bf29-24fd5940e818
+[38;5;229m[9d361523][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;229m[9d361523][0m[38;5;-49m[AndroidUiautomator2Driver@b1af][0m Retrieving device list
+[38;5;229m[9d361523][0m[38;5;-49m[AndroidUiautomator2Driver@b1af][0m Using device: 19f1f53a0403
+[38;5;229m[9d361523][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;229m[9d361523][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+[38;5;229m[9d361523][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;229m[9d361523][0m[38;5;-49m[AndroidUiautomator2Driver@b1af][0m Relaxing hidden api policy
+[38;5;229m[9d361523][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;229m[9d361523][0m[38;5;229m[ADB][0m Package name: 'com.avinashproduct.todo'
+[38;5;229m[9d361523][0m[38;5;229m[ADB][0m Main activity name: 'com.avinashproduct.todo.SplashScreenActivity'
+[38;5;229m[9d361523][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;229m[9d361523][0m[38;5;229m[ADB][0m The application at 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;229m[9d361523][0m[38;5;-49m[AndroidUiautomator2Driver@b1af][0m Server packages are not going to be (re)installed
+[38;5;229m[9d361523][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;229m[9d361523][0m[38;5;-49m[AndroidUiautomator2Driver@b1af][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[38;5;229m[9d361523][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;229m[9d361523][0m[38;5;-49m[AndroidUiautomator2Driver@b1af][0m Restoring hidden api policy to the device default configuration
+[38;5;229m[9d361523][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m14642 ms - 1492[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appium:systemPort":52865,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":true,"appium:platformVersion":"10","appium:noReset":false,"appium:udid":"19f1f53a0403","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","platformName":"Android","appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"10","appium:systemPort":52865,"appium:udid":"19f1f53a0403","platformName":"android"}]}}[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\Acer Aspire Z476\.appium\node_modules\appium-uiautomator2-driver
+[38;5;106m[AppiumDriver@337c][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.9) session
+[38;5;106m[AppiumDriver@337c][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;106m[AppiumDriver@337c][0m Appium's BaseDriver version is 9.11.3
+[38;5;106m[AppiumDriver@337c][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;170m[d30658bb][0m[38;5;-122m[AndroidUiautomator2Driver@e954][0m Session created with session id: d30658bb-4f10-45e1-be08-6d599af2b22d
+[38;5;170m[d30658bb][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;170m[d30658bb][0m[38;5;-122m[AndroidUiautomator2Driver@e954][0m Retrieving device list
+[38;5;170m[d30658bb][0m[38;5;-122m[AndroidUiautomator2Driver@e954][0m Using device: 19f1f53a0403
+[38;5;170m[d30658bb][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;170m[d30658bb][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+[38;5;170m[d30658bb][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;170m[d30658bb][0m[38;5;-122m[AndroidUiautomator2Driver@e954][0m Relaxing hidden api policy
+[38;5;170m[d30658bb][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;170m[d30658bb][0m[38;5;229m[ADB][0m Package name: 'com.avinashproduct.todo'
+[38;5;170m[d30658bb][0m[38;5;229m[ADB][0m Main activity name: 'com.avinashproduct.todo.SplashScreenActivity'
+[38;5;170m[d30658bb][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;170m[d30658bb][0m[38;5;-122m[AndroidUiautomator2Driver@e954][0m Server packages are not going to be (re)installed
+[38;5;170m[d30658bb][0m[38;5;229m[ADB][0m The application at 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;170m[d30658bb][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;170m[d30658bb][0m[38;5;-122m[AndroidUiautomator2Driver@e954][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[38;5;170m[d30658bb][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;170m[d30658bb][0m[38;5;-122m[AndroidUiautomator2Driver@e954][0m Restoring hidden api policy to the device default configuration
+[38;5;170m[d30658bb][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m14513 ms - 1492[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appium:systemPort":52991,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":true,"appium:platformVersion":"10","appium:noReset":false,"appium:udid":"19f1f53a0403","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","platformName":"Android","appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"10","appium:systemPort":52991,"appium:udid":"19f1f53a0403","platformName":"android"}]}}[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\Acer Aspire Z476\.appium\node_modules\appium-uiautomator2-driver
+[38;5;106m[AppiumDriver@337c][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.9) session
+[38;5;106m[AppiumDriver@337c][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;106m[AppiumDriver@337c][0m Appium's BaseDriver version is 9.11.3
+[38;5;106m[AppiumDriver@337c][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;202m[f981123f][0m[38;5;-50m[AndroidUiautomator2Driver@0c75][0m Session created with session id: f981123f-8baa-43d3-82ad-6961e1e3c360
+[38;5;202m[f981123f][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;202m[f981123f][0m[38;5;-50m[AndroidUiautomator2Driver@0c75][0m Retrieving device list
+[38;5;202m[f981123f][0m[38;5;-50m[AndroidUiautomator2Driver@0c75][0m Using device: 19f1f53a0403
+[38;5;202m[f981123f][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;202m[f981123f][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+[38;5;202m[f981123f][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;202m[f981123f][0m[38;5;-50m[AndroidUiautomator2Driver@0c75][0m Relaxing hidden api policy
+[38;5;202m[f981123f][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;202m[f981123f][0m[38;5;229m[ADB][0m Package name: 'com.avinashproduct.todo'
+[38;5;202m[f981123f][0m[38;5;229m[ADB][0m Main activity name: 'com.avinashproduct.todo.SplashScreenActivity'
+[38;5;202m[f981123f][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;202m[f981123f][0m[38;5;-50m[AndroidUiautomator2Driver@0c75][0m Server packages are not going to be (re)installed
+[38;5;202m[f981123f][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;202m[f981123f][0m[38;5;229m[ADB][0m The application at 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;202m[f981123f][0m[38;5;-50m[AndroidUiautomator2Driver@0c75][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[38;5;202m[f981123f][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;202m[f981123f][0m[38;5;-50m[AndroidUiautomator2Driver@0c75][0m Restoring hidden api policy to the device default configuration
+[38;5;202m[f981123f][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m14248 ms - 1492[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appium:systemPort":53117,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":true,"appium:platformVersion":"10","appium:noReset":false,"appium:udid":"19f1f53a0403","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","platformName":"Android","appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"10","appium:systemPort":53117,"appium:udid":"19f1f53a0403","platformName":"android"}]}}[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\Acer Aspire Z476\.appium\node_modules\appium-uiautomator2-driver
+[38;5;106m[AppiumDriver@337c][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.9) session
+[38;5;106m[AppiumDriver@337c][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;106m[AppiumDriver@337c][0m Appium's BaseDriver version is 9.11.3
+[38;5;106m[AppiumDriver@337c][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;25m[e5be3588][0m[38;5;-43m[AndroidUiautomator2Driver@8767][0m Session created with session id: e5be3588-d202-42ba-af25-bfb460ff5336
+[38;5;25m[e5be3588][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;25m[e5be3588][0m[38;5;-43m[AndroidUiautomator2Driver@8767][0m Retrieving device list
+[38;5;25m[e5be3588][0m[38;5;-43m[AndroidUiautomator2Driver@8767][0m Using device: 19f1f53a0403
+[38;5;25m[e5be3588][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;25m[e5be3588][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+[38;5;25m[e5be3588][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;25m[e5be3588][0m[38;5;-43m[AndroidUiautomator2Driver@8767][0m Relaxing hidden api policy
+[38;5;25m[e5be3588][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;25m[e5be3588][0m[38;5;229m[ADB][0m Package name: 'com.avinashproduct.todo'
+[38;5;25m[e5be3588][0m[38;5;229m[ADB][0m Main activity name: 'com.avinashproduct.todo.SplashScreenActivity'
+[38;5;25m[e5be3588][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;25m[e5be3588][0m[38;5;-43m[AndroidUiautomator2Driver@8767][0m Server packages are not going to be (re)installed
+[38;5;25m[e5be3588][0m[38;5;229m[ADB][0m The application at 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;25m[e5be3588][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;25m[e5be3588][0m[38;5;-43m[AndroidUiautomator2Driver@8767][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[38;5;25m[e5be3588][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;25m[e5be3588][0m[38;5;-43m[AndroidUiautomator2Driver@8767][0m Restoring hidden api policy to the device default configuration
+[38;5;25m[e5be3588][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m15216 ms - 1492[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appium:systemPort":53246,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":true,"appium:platformVersion":"10","appium:noReset":false,"appium:udid":"19f1f53a0403","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","platformName":"Android","appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"10","appium:systemPort":53246,"appium:udid":"19f1f53a0403","platformName":"android"}]}}[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\Acer Aspire Z476\.appium\node_modules\appium-uiautomator2-driver
+[38;5;106m[AppiumDriver@337c][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.9) session
+[38;5;106m[AppiumDriver@337c][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;106m[AppiumDriver@337c][0m Appium's BaseDriver version is 9.11.3
+[38;5;106m[AppiumDriver@337c][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;103m[d74f50a6][0m[38;5;-17m[AndroidUiautomator2Driver@67ed][0m Session created with session id: d74f50a6-ac6c-4264-a1a9-9150d099e504
+[38;5;103m[d74f50a6][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;103m[d74f50a6][0m[38;5;-17m[AndroidUiautomator2Driver@67ed][0m Retrieving device list
+[38;5;103m[d74f50a6][0m[38;5;-17m[AndroidUiautomator2Driver@67ed][0m Using device: 19f1f53a0403
+[38;5;103m[d74f50a6][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;103m[d74f50a6][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+[38;5;103m[d74f50a6][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;103m[d74f50a6][0m[38;5;-17m[AndroidUiautomator2Driver@67ed][0m Relaxing hidden api policy
+[38;5;103m[d74f50a6][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;103m[d74f50a6][0m[38;5;229m[ADB][0m Package name: 'com.avinashproduct.todo'
+[38;5;103m[d74f50a6][0m[38;5;229m[ADB][0m Main activity name: 'com.avinashproduct.todo.SplashScreenActivity'
+[38;5;103m[d74f50a6][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;103m[d74f50a6][0m[38;5;-17m[AndroidUiautomator2Driver@67ed][0m Server packages are not going to be (re)installed
+[38;5;103m[d74f50a6][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;103m[d74f50a6][0m[38;5;229m[ADB][0m The application at 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;103m[d74f50a6][0m[38;5;-17m[AndroidUiautomator2Driver@67ed][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[38;5;103m[d74f50a6][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;103m[d74f50a6][0m[38;5;-17m[AndroidUiautomator2Driver@67ed][0m Restoring hidden api policy to the device default configuration
+[38;5;103m[d74f50a6][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m14273 ms - 1492[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appium:systemPort":53378,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":true,"appium:platformVersion":"10","appium:noReset":false,"appium:udid":"19f1f53a0403","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","platformName":"Android","appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"10","appium:systemPort":53378,"appium:udid":"19f1f53a0403","platformName":"android"}]}}[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\Acer Aspire Z476\.appium\node_modules\appium-uiautomator2-driver
+[38;5;106m[AppiumDriver@337c][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.9) session
+[38;5;106m[AppiumDriver@337c][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;106m[AppiumDriver@337c][0m Appium's BaseDriver version is 9.11.3
+[38;5;106m[AppiumDriver@337c][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;45m[be3a3506][0m[38;5;-60m[AndroidUiautomator2Driver@e13b][0m Session created with session id: be3a3506-01b6-4c88-a0ac-683a0997d40a
+[38;5;45m[be3a3506][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;45m[be3a3506][0m[38;5;-60m[AndroidUiautomator2Driver@e13b][0m Retrieving device list
+[38;5;45m[be3a3506][0m[38;5;-60m[AndroidUiautomator2Driver@e13b][0m Using device: 19f1f53a0403
+[38;5;45m[be3a3506][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;45m[be3a3506][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+[38;5;45m[be3a3506][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;45m[be3a3506][0m[38;5;-60m[AndroidUiautomator2Driver@e13b][0m Relaxing hidden api policy
+[38;5;45m[be3a3506][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;45m[be3a3506][0m[38;5;229m[ADB][0m Package name: 'com.avinashproduct.todo'
+[38;5;45m[be3a3506][0m[38;5;229m[ADB][0m Main activity name: 'com.avinashproduct.todo.SplashScreenActivity'
+[38;5;45m[be3a3506][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;45m[be3a3506][0m[38;5;-60m[AndroidUiautomator2Driver@e13b][0m Server packages are not going to be (re)installed
+[38;5;45m[be3a3506][0m[38;5;229m[ADB][0m The application at 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;45m[be3a3506][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;45m[be3a3506][0m[38;5;-60m[AndroidUiautomator2Driver@e13b][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[38;5;45m[be3a3506][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;45m[be3a3506][0m[38;5;-60m[AndroidUiautomator2Driver@e13b][0m Restoring hidden api policy to the device default configuration
+[38;5;45m[be3a3506][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m14310 ms - 1492[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appium:systemPort":53505,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":true,"appium:platformVersion":"10","appium:noReset":false,"appium:udid":"19f1f53a0403","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","platformName":"Android","appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"10","appium:systemPort":53505,"appium:udid":"19f1f53a0403","platformName":"android"}]}}[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\Acer Aspire Z476\.appium\node_modules\appium-uiautomator2-driver
+[38;5;106m[AppiumDriver@337c][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.9) session
+[38;5;106m[AppiumDriver@337c][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;106m[AppiumDriver@337c][0m Appium's BaseDriver version is 9.11.3
+[38;5;106m[AppiumDriver@337c][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;148m[e89e0c15][0m[38;5;-32m[AndroidUiautomator2Driver@3f59][0m Session created with session id: e89e0c15-3263-4b2d-827d-0f9273c21b36
+[38;5;148m[e89e0c15][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;148m[e89e0c15][0m[38;5;-32m[AndroidUiautomator2Driver@3f59][0m Retrieving device list
+[38;5;148m[e89e0c15][0m[38;5;-32m[AndroidUiautomator2Driver@3f59][0m Using device: 19f1f53a0403
+[38;5;148m[e89e0c15][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;148m[e89e0c15][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+[38;5;148m[e89e0c15][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;148m[e89e0c15][0m[38;5;-32m[AndroidUiautomator2Driver@3f59][0m Relaxing hidden api policy
+[38;5;148m[e89e0c15][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;148m[e89e0c15][0m[38;5;229m[ADB][0m Package name: 'com.avinashproduct.todo'
+[38;5;148m[e89e0c15][0m[38;5;229m[ADB][0m Main activity name: 'com.avinashproduct.todo.SplashScreenActivity'
+[38;5;148m[e89e0c15][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;148m[e89e0c15][0m[38;5;-32m[AndroidUiautomator2Driver@3f59][0m Server packages are not going to be (re)installed
+[38;5;148m[e89e0c15][0m[38;5;229m[ADB][0m The application at 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;148m[e89e0c15][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;148m[e89e0c15][0m[38;5;-32m[AndroidUiautomator2Driver@3f59][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[38;5;148m[e89e0c15][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;148m[e89e0c15][0m[38;5;-32m[AndroidUiautomator2Driver@3f59][0m Restoring hidden api policy to the device default configuration
+[38;5;148m[e89e0c15][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m13942 ms - 1492[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appium:systemPort":53631,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":true,"appium:platformVersion":"10","appium:noReset":false,"appium:udid":"19f1f53a0403","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","platformName":"Android","appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"10","appium:systemPort":53631,"appium:udid":"19f1f53a0403","platformName":"android"}]}}[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\Acer Aspire Z476\.appium\node_modules\appium-uiautomator2-driver
+[38;5;106m[AppiumDriver@337c][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.9) session
+[38;5;106m[AppiumDriver@337c][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;106m[AppiumDriver@337c][0m Appium's BaseDriver version is 9.11.3
+[38;5;106m[AppiumDriver@337c][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;80m[da706075][0m[38;5;-58m[AndroidUiautomator2Driver@40ab][0m Session created with session id: da706075-04d3-40e7-88b1-874d2b0a18af
+[38;5;80m[da706075][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;80m[da706075][0m[38;5;-58m[AndroidUiautomator2Driver@40ab][0m Retrieving device list
+[38;5;80m[da706075][0m[38;5;-58m[AndroidUiautomator2Driver@40ab][0m Using device: 19f1f53a0403
+[38;5;80m[da706075][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;80m[da706075][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+[38;5;80m[da706075][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;80m[da706075][0m[38;5;-58m[AndroidUiautomator2Driver@40ab][0m Relaxing hidden api policy
+[38;5;80m[da706075][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;80m[da706075][0m[38;5;229m[ADB][0m Package name: 'com.avinashproduct.todo'
+[38;5;80m[da706075][0m[38;5;229m[ADB][0m Main activity name: 'com.avinashproduct.todo.SplashScreenActivity'
+[38;5;80m[da706075][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;80m[da706075][0m[38;5;-58m[AndroidUiautomator2Driver@40ab][0m Server packages are not going to be (re)installed
+[38;5;80m[da706075][0m[38;5;229m[ADB][0m The application at 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;80m[da706075][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;80m[da706075][0m[38;5;-58m[AndroidUiautomator2Driver@40ab][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[38;5;80m[da706075][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;80m[da706075][0m[38;5;-58m[AndroidUiautomator2Driver@40ab][0m Restoring hidden api policy to the device default configuration
+[38;5;80m[da706075][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m14191 ms - 1492[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appium:systemPort":53757,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":true,"appium:platformVersion":"10","appium:noReset":false,"appium:udid":"19f1f53a0403","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","platformName":"Android","appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"10","appium:systemPort":53757,"appium:udid":"19f1f53a0403","platformName":"android"}]}}[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\Acer Aspire Z476\.appium\node_modules\appium-uiautomator2-driver
+[38;5;106m[AppiumDriver@337c][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.9) session
+[38;5;106m[AppiumDriver@337c][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;106m[AppiumDriver@337c][0m Appium's BaseDriver version is 9.11.3
+[38;5;106m[AppiumDriver@337c][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;78m[27eaabf2][0m[38;5;-107m[AndroidUiautomator2Driver@2a67][0m Session created with session id: 27eaabf2-d2f9-4526-994e-95c910a1bb16
+[38;5;78m[27eaabf2][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;78m[27eaabf2][0m[38;5;-107m[AndroidUiautomator2Driver@2a67][0m Retrieving device list
+[38;5;78m[27eaabf2][0m[38;5;-107m[AndroidUiautomator2Driver@2a67][0m Using device: 19f1f53a0403
+[38;5;78m[27eaabf2][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;78m[27eaabf2][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+[38;5;78m[27eaabf2][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;78m[27eaabf2][0m[38;5;-107m[AndroidUiautomator2Driver@2a67][0m Relaxing hidden api policy
+[38;5;78m[27eaabf2][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;78m[27eaabf2][0m[38;5;229m[ADB][0m Package name: 'com.avinashproduct.todo'
+[38;5;78m[27eaabf2][0m[38;5;229m[ADB][0m Main activity name: 'com.avinashproduct.todo.SplashScreenActivity'
+[38;5;78m[27eaabf2][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;78m[27eaabf2][0m[38;5;-107m[AndroidUiautomator2Driver@2a67][0m Server packages are not going to be (re)installed
+[38;5;78m[27eaabf2][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;78m[27eaabf2][0m[38;5;229m[ADB][0m The application at 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;78m[27eaabf2][0m[38;5;-107m[AndroidUiautomator2Driver@2a67][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[38;5;78m[27eaabf2][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;78m[27eaabf2][0m[38;5;-107m[AndroidUiautomator2Driver@2a67][0m Restoring hidden api policy to the device default configuration
+[38;5;78m[27eaabf2][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m14218 ms - 1492[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appium:systemPort":53883,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":true,"appium:platformVersion":"10","appium:noReset":false,"appium:udid":"19f1f53a0403","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","platformName":"Android","appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"10","appium:systemPort":53883,"appium:udid":"19f1f53a0403","platformName":"android"}]}}[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\Acer Aspire Z476\.appium\node_modules\appium-uiautomator2-driver
+[38;5;106m[AppiumDriver@337c][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.9) session
+[38;5;106m[AppiumDriver@337c][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;106m[AppiumDriver@337c][0m Appium's BaseDriver version is 9.11.3
+[38;5;106m[AppiumDriver@337c][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;214m[9983f3c9][0m[38;5;-185m[AndroidUiautomator2Driver@78eb][0m Session created with session id: 9983f3c9-a2c1-4e37-95d9-835c402057b0
+[38;5;214m[9983f3c9][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;214m[9983f3c9][0m[38;5;-185m[AndroidUiautomator2Driver@78eb][0m Retrieving device list
+[38;5;214m[9983f3c9][0m[38;5;-185m[AndroidUiautomator2Driver@78eb][0m Using device: 19f1f53a0403
+[38;5;214m[9983f3c9][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;214m[9983f3c9][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+[38;5;214m[9983f3c9][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;214m[9983f3c9][0m[38;5;-185m[AndroidUiautomator2Driver@78eb][0m Relaxing hidden api policy
+[38;5;214m[9983f3c9][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;214m[9983f3c9][0m[38;5;229m[ADB][0m Package name: 'com.avinashproduct.todo'
+[38;5;214m[9983f3c9][0m[38;5;229m[ADB][0m Main activity name: 'com.avinashproduct.todo.SplashScreenActivity'
+[38;5;214m[9983f3c9][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;214m[9983f3c9][0m[38;5;-185m[AndroidUiautomator2Driver@78eb][0m Server packages are not going to be (re)installed
+[38;5;214m[9983f3c9][0m[38;5;229m[ADB][0m The application at 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;214m[9983f3c9][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;214m[9983f3c9][0m[38;5;-185m[AndroidUiautomator2Driver@78eb][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[38;5;214m[9983f3c9][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;214m[9983f3c9][0m[38;5;-185m[AndroidUiautomator2Driver@78eb][0m Restoring hidden api policy to the device default configuration
+[38;5;214m[9983f3c9][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m14361 ms - 1492[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appium:systemPort":54010,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":true,"appium:platformVersion":"10","appium:noReset":false,"appium:udid":"19f1f53a0403","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","platformName":"Android","appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Acer Aspire Z476\\Downloads\\Todo_2.0_APKPure.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi M2003J15SC (Android 10)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"10","appium:systemPort":54010,"appium:udid":"19f1f53a0403","platformName":"android"}]}}[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\Acer Aspire Z476\.appium\node_modules\appium-uiautomator2-driver
+[38;5;106m[AppiumDriver@337c][0m Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.9) session
+[38;5;106m[AppiumDriver@337c][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;106m[AppiumDriver@337c][0m Appium's BaseDriver version is 9.11.3
+[38;5;106m[AppiumDriver@337c][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[38;5;31m[75635a8b][0m[38;5;12m[AndroidUiautomator2Driver@6e73][0m Session created with session id: 75635a8b-dee3-4545-b313-a5e4246a01f8
+[38;5;31m[75635a8b][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;31m[75635a8b][0m[38;5;12m[AndroidUiautomator2Driver@6e73][0m Retrieving device list
+[38;5;31m[75635a8b][0m[38;5;12m[AndroidUiautomator2Driver@6e73][0m Using device: 19f1f53a0403
+[38;5;31m[75635a8b][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;31m[75635a8b][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+[38;5;31m[75635a8b][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;31m[75635a8b][0m[38;5;12m[AndroidUiautomator2Driver@6e73][0m Relaxing hidden api policy
+[38;5;31m[75635a8b][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Acer Aspire Z476\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;31m[75635a8b][0m[38;5;229m[ADB][0m Package name: 'com.avinashproduct.todo'
+[38;5;31m[75635a8b][0m[38;5;229m[ADB][0m Main activity name: 'com.avinashproduct.todo.SplashScreenActivity'
+[38;5;31m[75635a8b][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;31m[75635a8b][0m[38;5;229m[ADB][0m The application at 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;31m[75635a8b][0m[38;5;12m[AndroidUiautomator2Driver@6e73][0m Server packages are not going to be (re)installed
+[38;5;31m[75635a8b][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;31m[75635a8b][0m[38;5;12m[AndroidUiautomator2Driver@6e73][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[38;5;31m[75635a8b][0m[38;5;229m[ADB][0m com.avinashproduct.todo was not uninstalled, because it was not present on the device
+[38;5;31m[75635a8b][0m[38;5;12m[AndroidUiautomator2Driver@6e73][0m Restoring hidden api policy to the device default configuration
+[38;5;31m[75635a8b][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m14548 ms - 1492[39m [90m[39m

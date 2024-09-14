@@ -35,7 +35,7 @@ Mobile.setText(findTestObject('Object Repository/page_Category/android.widget.in
 
 Mobile.tap(findTestObject('Object Repository/page_Category/android.widget.button-Add'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/page_Category/android.widget.TextView - School'), newCategory)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

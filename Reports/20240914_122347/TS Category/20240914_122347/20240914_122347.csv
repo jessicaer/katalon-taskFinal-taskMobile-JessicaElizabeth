@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS Category,,,,14-09-2024 12:24:00,14-09-2024 12:30:33,6m - 33.369s,FAILED
+,,,,,,,
+Test Cases/Category/Add Category,,,,14-09-2024 12:24:00,14-09-2024 12:25:13,1m - 12.252s,PASSED
+"startApplication(apk, true)",,,,14-09-2024 12:24:01,14-09-2024 12:24:50,49.043s,PASSED
+"tap(findTestObject(""Object Repository/page_Dashboard/android.widget.TextView - Skip""), 0)",,,,14-09-2024 12:24:50,14-09-2024 12:24:53,2.164s,PASSED
+"verifyElementVisible(findTestObject(""page_Dashboard/android.widget.lbl_ToDo""), 0)",,,,14-09-2024 12:24:53,14-09-2024 12:24:54,1.818s,PASSED
+"tap(findTestObject(""Object Repository/page_Dashboard/android.widget.button-Menu""), 0)",,,,14-09-2024 12:24:54,14-09-2024 12:24:55,0.569s,PASSED
+"tap(findTestObject(""Object Repository/page_Category/android.widget.menu-Category""), 0)",,,,14-09-2024 12:24:55,14-09-2024 12:24:57,1.465s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/page_Category/android.widget.lbl_Category""), 0)",,,,14-09-2024 12:24:57,14-09-2024 12:24:59,2.570s,PASSED
+"tap(findTestObject(""Object Repository/page_Category/android.widget.button-Add-New-Category""), 0)",,,,14-09-2024 12:24:59,14-09-2024 12:25:00,0.635s,PASSED
+"setText(findTestObject(""Object Repository/page_Category/android.widget.input_Category""), newCategory, 0)",,,,14-09-2024 12:25:00,14-09-2024 12:25:03,3.690s,PASSED
+"tap(findTestObject(""Object Repository/page_Category/android.widget.button-Add""), 0)",,,,14-09-2024 12:25:03,14-09-2024 12:25:04,0.653s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,14-09-2024 12:25:04,14-09-2024 12:25:09,5.129s,PASSED
+closeApplication(),,,,14-09-2024 12:25:09,14-09-2024 12:25:13,3.544s,PASSED
+,,,,,,,
+Test Cases/Category/Add Category,,,,14-09-2024 12:25:13,14-09-2024 12:26:10,57.365s,PASSED
+"startApplication(apk, true)",,,,14-09-2024 12:25:13,14-09-2024 12:25:48,35.431s,PASSED
+"tap(findTestObject(""Object Repository/page_Dashboard/android.widget.TextView - Skip""), 0)",,,,14-09-2024 12:25:48,14-09-2024 12:25:51,2.829s,PASSED
+"verifyElementVisible(findTestObject(""page_Dashboard/android.widget.lbl_ToDo""), 0)",,,,14-09-2024 12:25:51,14-09-2024 12:25:53,1.539s,PASSED
+"tap(findTestObject(""Object Repository/page_Dashboard/android.widget.button-Menu""), 0)",,,,14-09-2024 12:25:53,14-09-2024 12:25:53,0.202s,PASSED
+"tap(findTestObject(""Object Repository/page_Category/android.widget.menu-Category""), 0)",,,,14-09-2024 12:25:53,14-09-2024 12:25:54,1.116s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/page_Category/android.widget.lbl_Category""), 0)",,,,14-09-2024 12:25:54,14-09-2024 12:25:56,1.943s,PASSED
+"tap(findTestObject(""Object Repository/page_Category/android.widget.button-Add-New-Category""), 0)",,,,14-09-2024 12:25:56,14-09-2024 12:25:57,0.886s,PASSED
+"setText(findTestObject(""Object Repository/page_Category/android.widget.input_Category""), newCategory, 0)",,,,14-09-2024 12:25:57,14-09-2024 12:26:01,4.231s,PASSED
+"tap(findTestObject(""Object Repository/page_Category/android.widget.button-Add""), 0)",,,,14-09-2024 12:26:01,14-09-2024 12:26:02,0.708s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,14-09-2024 12:26:02,14-09-2024 12:26:07,5.010s,PASSED
+closeApplication(),,,,14-09-2024 12:26:07,14-09-2024 12:26:10,3.356s,PASSED
+,,,,,,,
+Test Cases/Category/Add Category,,,,14-09-2024 12:26:10,14-09-2024 12:27:15,1m - 4.533s,PASSED
+"startApplication(apk, true)",,,,14-09-2024 12:26:10,14-09-2024 12:26:52,41.754s,PASSED
+"tap(findTestObject(""Object Repository/page_Dashboard/android.widget.TextView - Skip""), 0)",,,,14-09-2024 12:26:52,14-09-2024 12:26:54,1.859s,PASSED
+"verifyElementVisible(findTestObject(""page_Dashboard/android.widget.lbl_ToDo""), 0)",,,,14-09-2024 12:26:54,14-09-2024 12:26:56,2.101s,PASSED
+"tap(findTestObject(""Object Repository/page_Dashboard/android.widget.button-Menu""), 0)",,,,14-09-2024 12:26:56,14-09-2024 12:26:56,0.269s,PASSED
+"tap(findTestObject(""Object Repository/page_Category/android.widget.menu-Category""), 0)",,,,14-09-2024 12:26:56,14-09-2024 12:26:58,1.599s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/page_Category/android.widget.lbl_Category""), 0)",,,,14-09-2024 12:26:58,14-09-2024 12:27:00,1.799s,PASSED
+"tap(findTestObject(""Object Repository/page_Category/android.widget.button-Add-New-Category""), 0)",,,,14-09-2024 12:27:00,14-09-2024 12:27:00,0.514s,PASSED
+"setText(findTestObject(""Object Repository/page_Category/android.widget.input_Category""), newCategory, 0)",,,,14-09-2024 12:27:00,14-09-2024 12:27:05,4.839s,PASSED
+"tap(findTestObject(""Object Repository/page_Category/android.widget.button-Add""), 0)",,,,14-09-2024 12:27:05,14-09-2024 12:27:06,0.933s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,14-09-2024 12:27:06,14-09-2024 12:27:11,5.015s,PASSED
+closeApplication(),,,,14-09-2024 12:27:11,14-09-2024 12:27:15,3.626s,PASSED
+,,,,,,,
+Test Cases/Category/Add Category,,,,14-09-2024 12:28:22,14-09-2024 12:28:37,14.379s,FAILED
+"startApplication(apk, true)",,,,14-09-2024 12:28:22,14-09-2024 12:28:37,14.329s,FAILED
+,,,,,,,
+Test Cases/Category/Update Category,,,,14-09-2024 12:29:21,14-09-2024 12:29:35,14.051s,FAILED
+"startApplication(apk, true)",,,,14-09-2024 12:29:21,14-09-2024 12:29:35,13.991s,FAILED
+,,,,,,,
+Test Cases/Category/Delete Category,,,,14-09-2024 12:30:19,14-09-2024 12:30:33,14.625s,FAILED
+"startApplication(apk, true)",,,,14-09-2024 12:30:19,14-09-2024 12:30:33,14.590s,FAILED
