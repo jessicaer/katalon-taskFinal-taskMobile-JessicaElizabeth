@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS Task" time="240.814" tests="3" failures="0" errors="0">
+   <testsuite name="TS Task" tests="3" failures="0" errors="0" time="240.814" skipped="0" timestamp="14-09-2024T14:44:46" hostname="Acer Aspire Z476 - DESKTOP-5S7EQUT.lan" id="Test Suites/TS Task">
+      <properties>
+         <property name="deviceName" value="Xiaomi M2003J15SC (Android 10)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="E:\\Bootcamp\\QA\\Katalon\\Tugas\\katalon-taskFinal-taskMobile-JessicaElizabeth\\Reports\\20240914_144430\\TS Task\\20240914_144430"/>
+         <property name="logFiles" value="E:\\Bootcamp\\QA\\Katalon\\Tugas\\katalon-taskFinal-taskMobile-JessicaElizabeth\\Reports\\20240914_144430\\TS Task\\20240914_144430\\appium.log, E:\\Bootcamp\\QA\\Katalon\\Tugas\\katalon-taskFinal-taskMobile-JessicaElizabeth\\Reports\\20240914_144430\\TS Task\\20240914_144430\\appium_error.log, E:\\Bootcamp\\QA\\Katalon\\Tugas\\katalon-taskFinal-taskMobile-JessicaElizabeth\\Reports\\20240914_144430\\TS Task\\20240914_144430\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer Aspire Z476 - DESKTOP-5S7EQUT.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.11.3&quot;}}}"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.11.3"/>
+         <property name="deviceModel" value="M2003J15SC"/>
+         <property name="hostAddress" value="192.168.8.137"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="19f1f53a0403"/>
+         <property name="deviceName" value="Xiaomi M2003J15SC (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Task/Add Task Success" time="75.087" classname="Test Cases/Task/Add Task Success" status="PASSED">
+         <system-out><![CDATA[14-09-2024T14:44:47 - [TEST_CASE][PASSED] - Test Cases/Task/Add Task Success: Test Cases/Task/Add Task Success
+
+14-09-2024T14:44:49 - [TEST_STEP][PASSED] - startApplication(apk, true): Started application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T14:44:51 - [MESSAGE][INFO] - Starting application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T14:44:52 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+14-09-2024T14:45:02 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+14-09-2024T14:45:02 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\Acer Aspire Z476\.appium
+
+14-09-2024T14:45:02 - [MESSAGE][INFO] - appium outlog: E:\Bootcamp\QA\Katalon\Tugas\katalon-taskFinal-taskMobile-JessicaElizabeth\Reports\20240914_144430\TS Task\20240914_144430\appium.log
+
+14-09-2024T14:45:02 - [MESSAGE][INFO] - appium errlog: E:\Bootcamp\QA\Katalon\Tugas\katalon-taskFinal-taskMobile-JessicaElizabeth\Reports\20240914_144430\TS Task\20240914_144430\appium_error.log
+
+14-09-2024T14:45:09 - [MESSAGE][INFO] - Appium server started on port 59,536
+
+14-09-2024T14:45:35 - [MESSAGE][PASSED] - Started application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T14:45:35 - [TEST_STEP][PASSED] - tap(findTestObject("page_Dashboard/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.TextView - Skip'
+
+14-09-2024T14:45:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:45:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.TextView - Skip'
+
+14-09-2024T14:45:37 - [TEST_STEP][PASSED] - tap(findTestObject("page_Dashboard/android.widget.button_Add-Task"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.button_Add-Task'
+
+14-09-2024T14:45:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:45:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.button_Add-Task'
+
+14-09-2024T14:45:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Add-Task/android.widget.lbl_Add-Task"), 0): Element 'Object Repository/page_Add-Task/android.widget.lbl_Add-Task' is visible
+
+14-09-2024T14:45:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:45:40 - [MESSAGE][PASSED] - Element 'Object Repository/page_Add-Task/android.widget.lbl_Add-Task' is visible
+
+14-09-2024T14:45:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Add-Task/android.widget.input_Task-Title"), taskTitle, 0): Text 'Katalon Class' has been set to element 'Object Repository/page_Add-Task/android.widget.input_Task-Title'
+
+14-09-2024T14:45:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:45:42 - [MESSAGE][PASSED] - Text 'Katalon Class' has been set to element 'Object Repository/page_Add-Task/android.widget.input_Task-Title'
+
+14-09-2024T14:45:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Add-Task/android.widget.input_Task-Desc"), enterYourTask, 0): Text 'Mobile, API' has been set to element 'Object Repository/page_Add-Task/android.widget.input_Task-Desc'
+
+14-09-2024T14:45:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:45:44 - [MESSAGE][PASSED] - Text 'Mobile, API' has been set to element 'Object Repository/page_Add-Task/android.widget.input_Task-Desc'
+
+14-09-2024T14:45:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.Set-Date"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.Set-Date'
+
+14-09-2024T14:45:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:45:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.Set-Date'
+
+14-09-2024T14:45:46 - [TEST_STEP][PASSED] - tap(findTestObject("page_Add-Task/android.view.View - 15"), 0): Tapped on element 'Object Repository/page_Add-Task/android.view.View - 15'
+
+14-09-2024T14:45:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:45:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.view.View - 15'
+
+14-09-2024T14:45:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.button_Date-OKE"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.button_Date-OKE'
+
+14-09-2024T14:45:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:45:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.button_Date-OKE'
+
+14-09-2024T14:45:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.Set-Time"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.Set-Time'
+
+14-09-2024T14:45:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:45:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.Set-Time'
+
+14-09-2024T14:45:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.Time-Picker_Hours"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.Time-Picker_Hours'
+
+14-09-2024T14:45:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:45:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.Time-Picker_Hours'
+
+14-09-2024T14:45:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.Time-Picker_Minute"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.Time-Picker_Minute'
+
+14-09-2024T14:45:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:45:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.Time-Picker_Minute'
+
+14-09-2024T14:45:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.button_Time-OKE"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.button_Time-OKE'
+
+14-09-2024T14:45:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:45:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.button_Time-OKE'
+
+14-09-2024T14:45:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.Spinner"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.Spinner'
+
+14-09-2024T14:45:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:45:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.Spinner'
+
+14-09-2024T14:45:54 - [TEST_STEP][PASSED] - select_dropdown = category: null
+
+14-09-2024T14:45:54 - [TEST_STEP][PASSED] - switch (select_dropdown): null
+
+14-09-2024T14:45:54 - [TEST_STEP][PASSED] - case select_dropdown = "Personal":: null
+
+14-09-2024T14:45:54 - [TEST_STEP][PASSED] - println(select_dropdown): null
+
+14-09-2024T14:45:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.CheckedTextView - Personal"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.CheckedTextView - Personal'
+
+14-09-2024T14:45:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:45:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.CheckedTextView - Personal'
+
+14-09-2024T14:45:56 - [TEST_STEP][PASSED] - break: null
+
+14-09-2024T14:45:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.submitButton"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.submitButton'
+
+14-09-2024T14:45:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:45:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.submitButton'
+
+14-09-2024T14:45:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page_Add-Task/android.widget.TextView - Katalon Class"), taskTitle): Actual text and expected text of test object 'Object Repository/page_Add-Task/android.widget.TextView - Katalon Class' are matched.
+
+14-09-2024T14:45:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page_Add-Task/android.widget.TextView - Katalon Class' are matched.
+
+14-09-2024T14:45:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page_Add-Task/android.widget.TextView - Mobile, API"), enterYourTask): Actual text and expected text of test object 'Object Repository/page_Add-Task/android.widget.TextView - Mobile, API' are matched.
+
+14-09-2024T14:45:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page_Add-Task/android.widget.TextView - Mobile, API' are matched.
+
+14-09-2024T14:45:59 - [TEST_STEP][PASSED] - switch (select_dropdown): null
+
+14-09-2024T14:45:59 - [TEST_STEP][PASSED] - case select_dropdown = "Personal":: null
+
+14-09-2024T14:45:59 - [TEST_STEP][PASSED] - println(select_dropdown): null
+
+14-09-2024T14:45:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page_Dashboard/android.widget.TextView - Personal"), "Personal"): Actual text and expected text of test object 'Object Repository/page_Dashboard/android.widget.TextView - Personal' are matched.
+
+14-09-2024T14:45:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page_Dashboard/android.widget.TextView - Personal' are matched.
+
+14-09-2024T14:45:59 - [TEST_STEP][PASSED] - break: null
+
+14-09-2024T14:45:59 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+14-09-2024T14:46:03 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Task/Edit Task" time="82.062" classname="Test Cases/Task/Edit Task" status="PASSED">
+         <system-out><![CDATA[14-09-2024T14:46:03 - [TEST_CASE][PASSED] - Test Cases/Task/Edit Task: Test Cases/Task/Edit Task
+
+14-09-2024T14:46:03 - [TEST_STEP][PASSED] - startApplication(apk, true): Started application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T14:46:03 - [MESSAGE][INFO] - Starting application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T14:46:04 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+14-09-2024T14:46:13 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+14-09-2024T14:46:13 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\Acer Aspire Z476\.appium
+
+14-09-2024T14:46:13 - [MESSAGE][INFO] - appium outlog: E:\Bootcamp\QA\Katalon\Tugas\katalon-taskFinal-taskMobile-JessicaElizabeth\Reports\20240914_144430\TS Task\20240914_144430\appium.log
+
+14-09-2024T14:46:13 - [MESSAGE][INFO] - appium errlog: E:\Bootcamp\QA\Katalon\Tugas\katalon-taskFinal-taskMobile-JessicaElizabeth\Reports\20240914_144430\TS Task\20240914_144430\appium_error.log
+
+14-09-2024T14:46:19 - [MESSAGE][INFO] - Appium server started on port 59,817
+
+14-09-2024T14:46:44 - [MESSAGE][PASSED] - Started application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T14:46:44 - [TEST_STEP][PASSED] - tap(findTestObject("page_Dashboard/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.TextView - Skip'
+
+14-09-2024T14:46:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:46:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.TextView - Skip'
+
+14-09-2024T14:46:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Dashboard/android.widget.lbl_ToDo"), 0): Element 'Object Repository/page_Dashboard/android.widget.lbl_ToDo' is visible
+
+14-09-2024T14:46:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:46:47 - [MESSAGE][PASSED] - Element 'Object Repository/page_Dashboard/android.widget.lbl_ToDo' is visible
+
+14-09-2024T14:46:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Add Task"), ["taskTitle":"Katalon Class", "enterYourTask":"Mobile, API"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Add Task' successfully
+
+14-09-2024T14:46:48 - [TEST_CASE][PASSED] - Test Cases/Blocks/Add Task: Test Cases/Blocks/Add Task
+
+14-09-2024T14:46:48 - [TEST_STEP][PASSED] - tap(findTestObject("page_Dashboard/android.widget.button_Add-Task"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.button_Add-Task'
+
+14-09-2024T14:46:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:46:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.button_Add-Task'
+
+14-09-2024T14:46:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Add-Task/android.widget.lbl_Add-Task"), 0): Element 'Object Repository/page_Add-Task/android.widget.lbl_Add-Task' is visible
+
+14-09-2024T14:46:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:46:51 - [MESSAGE][PASSED] - Element 'Object Repository/page_Add-Task/android.widget.lbl_Add-Task' is visible
+
+14-09-2024T14:46:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Add-Task/android.widget.input_Task-Title"), taskTitle, 0): Text 'Katalon Class' has been set to element 'Object Repository/page_Add-Task/android.widget.input_Task-Title'
+
+14-09-2024T14:46:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:46:54 - [MESSAGE][PASSED] - Text 'Katalon Class' has been set to element 'Object Repository/page_Add-Task/android.widget.input_Task-Title'
+
+14-09-2024T14:46:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Add-Task/android.widget.input_Task-Desc"), enterYourTask, 0): Text 'Mobile, API' has been set to element 'Object Repository/page_Add-Task/android.widget.input_Task-Desc'
+
+14-09-2024T14:46:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:46:56 - [MESSAGE][PASSED] - Text 'Mobile, API' has been set to element 'Object Repository/page_Add-Task/android.widget.input_Task-Desc'
+
+14-09-2024T14:46:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.Set-Date"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.Set-Date'
+
+14-09-2024T14:46:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:46:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.Set-Date'
+
+14-09-2024T14:46:58 - [TEST_STEP][PASSED] - tap(findTestObject("page_Add-Task/android.view.View - 15"), 0): Tapped on element 'Object Repository/page_Add-Task/android.view.View - 15'
+
+14-09-2024T14:46:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:46:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.view.View - 15'
+
+14-09-2024T14:46:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.button_Date-OKE"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.button_Date-OKE'
+
+14-09-2024T14:46:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:47:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.button_Date-OKE'
+
+14-09-2024T14:47:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.Set-Time"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.Set-Time'
+
+14-09-2024T14:47:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:47:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.Set-Time'
+
+14-09-2024T14:47:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.Time-Picker_Hours"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.Time-Picker_Hours'
+
+14-09-2024T14:47:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:47:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.Time-Picker_Hours'
+
+14-09-2024T14:47:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.Time-Picker_Minute"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.Time-Picker_Minute'
+
+14-09-2024T14:47:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:47:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.Time-Picker_Minute'
+
+14-09-2024T14:47:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.button_Time-OKE"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.button_Time-OKE'
+
+14-09-2024T14:47:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:47:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.button_Time-OKE'
+
+14-09-2024T14:47:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.Spinner"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.Spinner'
+
+14-09-2024T14:47:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:47:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.Spinner'
+
+14-09-2024T14:47:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.CheckedTextView - Personal"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.CheckedTextView - Personal'
+
+14-09-2024T14:47:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:47:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.CheckedTextView - Personal'
+
+14-09-2024T14:47:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.submitButton"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.submitButton'
+
+14-09-2024T14:47:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:47:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.submitButton'
+
+14-09-2024T14:47:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page_Add-Task/android.widget.TextView - Katalon Class"), taskTitle): Actual text and expected text of test object 'Object Repository/page_Add-Task/android.widget.TextView - Katalon Class' are matched.
+
+14-09-2024T14:47:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page_Add-Task/android.widget.TextView - Katalon Class' are matched.
+
+14-09-2024T14:47:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page_Add-Task/android.widget.TextView - Mobile, API"), enterYourTask): Actual text and expected text of test object 'Object Repository/page_Add-Task/android.widget.TextView - Mobile, API' are matched.
+
+14-09-2024T14:47:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page_Add-Task/android.widget.TextView - Mobile, API' are matched.
+
+14-09-2024T14:47:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Add Task' successfully
+
+14-09-2024T14:47:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Dashboard/android.widget.button_kebab-menu"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.button_kebab-menu'
+
+14-09-2024T14:47:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:47:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.button_kebab-menu'
+
+14-09-2024T14:47:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Dashboard/android.widget.button_Edit"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.button_Edit'
+
+14-09-2024T14:47:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:47:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.button_Edit'
+
+14-09-2024T14:47:13 - [TEST_STEP][PASSED] - setText(findTestObject("page_Edit-Task/android.widget.updateTitleTask - Katalon Class"), updateTitleTask, 0): Text 'Katalon Final Task' has been set to element 'Object Repository/page_Edit-Task/android.widget.updateTitleTask - Katalon Class'
+
+14-09-2024T14:47:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:47:17 - [MESSAGE][PASSED] - Text 'Katalon Final Task' has been set to element 'Object Repository/page_Edit-Task/android.widget.updateTitleTask - Katalon Class'
+
+14-09-2024T14:47:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Edit-Task/android.widget.input_updateTitleDesc"), updateTaskDesc, 0): Text 'Mobile, Web, API' has been set to element 'Object Repository/page_Edit-Task/android.widget.input_updateTitleDesc'
+
+14-09-2024T14:47:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:47:19 - [MESSAGE][PASSED] - Text 'Mobile, Web, API' has been set to element 'Object Repository/page_Edit-Task/android.widget.input_updateTitleDesc'
+
+14-09-2024T14:47:19 - [TEST_STEP][PASSED] - tap(findTestObject("page_Add-Task/android.widget.submitButton"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.submitButton'
+
+14-09-2024T14:47:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:47:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.submitButton'
+
+14-09-2024T14:47:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page_Edit-Task/android.widget.TextView - Katalon Final Task"), updateTitleTask): Actual text and expected text of test object 'Object Repository/page_Edit-Task/android.widget.TextView - Katalon Final Task' are matched.
+
+14-09-2024T14:47:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page_Edit-Task/android.widget.TextView - Katalon Final Task' are matched.
+
+14-09-2024T14:47:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page_Edit-Task/android.widget.TextView - Mobile, Web, API"), updateTaskDesc): Actual text and expected text of test object 'Object Repository/page_Edit-Task/android.widget.TextView - Mobile, Web, API' are matched.
+
+14-09-2024T14:47:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page_Edit-Task/android.widget.TextView - Mobile, Web, API' are matched.
+
+14-09-2024T14:47:22 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+14-09-2024T14:47:25 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Task/Delete Task" time="82.181" classname="Test Cases/Task/Delete Task" status="PASSED">
+         <system-out><![CDATA[14-09-2024T14:47:25 - [TEST_CASE][PASSED] - Test Cases/Task/Delete Task: Test Cases/Task/Delete Task
+
+14-09-2024T14:47:25 - [TEST_STEP][PASSED] - startApplication(apk, true): Started application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T14:47:25 - [MESSAGE][INFO] - Starting application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T14:47:25 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+14-09-2024T14:47:35 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+14-09-2024T14:47:35 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\Acer Aspire Z476\.appium
+
+14-09-2024T14:47:35 - [MESSAGE][INFO] - appium outlog: E:\Bootcamp\QA\Katalon\Tugas\katalon-taskFinal-taskMobile-JessicaElizabeth\Reports\20240914_144430\TS Task\20240914_144430\appium.log
+
+14-09-2024T14:47:35 - [MESSAGE][INFO] - appium errlog: E:\Bootcamp\QA\Katalon\Tugas\katalon-taskFinal-taskMobile-JessicaElizabeth\Reports\20240914_144430\TS Task\20240914_144430\appium_error.log
+
+14-09-2024T14:47:40 - [MESSAGE][INFO] - Appium server started on port 60,143
+
+14-09-2024T14:48:14 - [MESSAGE][PASSED] - Started application: 'C:\Users\Acer Aspire Z476\Downloads\Todo_2.0_APKPure.apk'
+
+14-09-2024T14:48:14 - [TEST_STEP][PASSED] - tap(findTestObject("page_Dashboard/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.TextView - Skip'
+
+14-09-2024T14:48:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.TextView - Skip'
+
+14-09-2024T14:48:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Dashboard/android.widget.lbl_ToDo"), 0): Element 'Object Repository/page_Dashboard/android.widget.lbl_ToDo' is visible
+
+14-09-2024T14:48:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:18 - [MESSAGE][PASSED] - Element 'Object Repository/page_Dashboard/android.widget.lbl_ToDo' is visible
+
+14-09-2024T14:48:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Add Task"), ["taskTitle":"Katalon Class", "enterYourTask":"Mobile, API"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Add Task' successfully
+
+14-09-2024T14:48:18 - [TEST_CASE][PASSED] - Test Cases/Blocks/Add Task: Test Cases/Blocks/Add Task
+
+14-09-2024T14:48:18 - [TEST_STEP][PASSED] - tap(findTestObject("page_Dashboard/android.widget.button_Add-Task"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.button_Add-Task'
+
+14-09-2024T14:48:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.button_Add-Task'
+
+14-09-2024T14:48:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Add-Task/android.widget.lbl_Add-Task"), 0): Element 'Object Repository/page_Add-Task/android.widget.lbl_Add-Task' is visible
+
+14-09-2024T14:48:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:20 - [MESSAGE][PASSED] - Element 'Object Repository/page_Add-Task/android.widget.lbl_Add-Task' is visible
+
+14-09-2024T14:48:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Add-Task/android.widget.input_Task-Title"), taskTitle, 0): Text 'Katalon Class' has been set to element 'Object Repository/page_Add-Task/android.widget.input_Task-Title'
+
+14-09-2024T14:48:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:22 - [MESSAGE][PASSED] - Text 'Katalon Class' has been set to element 'Object Repository/page_Add-Task/android.widget.input_Task-Title'
+
+14-09-2024T14:48:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page_Add-Task/android.widget.input_Task-Desc"), enterYourTask, 0): Text 'Mobile, API' has been set to element 'Object Repository/page_Add-Task/android.widget.input_Task-Desc'
+
+14-09-2024T14:48:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:24 - [MESSAGE][PASSED] - Text 'Mobile, API' has been set to element 'Object Repository/page_Add-Task/android.widget.input_Task-Desc'
+
+14-09-2024T14:48:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.Set-Date"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.Set-Date'
+
+14-09-2024T14:48:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.Set-Date'
+
+14-09-2024T14:48:25 - [TEST_STEP][PASSED] - tap(findTestObject("page_Add-Task/android.view.View - 15"), 0): Tapped on element 'Object Repository/page_Add-Task/android.view.View - 15'
+
+14-09-2024T14:48:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.view.View - 15'
+
+14-09-2024T14:48:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.button_Date-OKE"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.button_Date-OKE'
+
+14-09-2024T14:48:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.button_Date-OKE'
+
+14-09-2024T14:48:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.Set-Time"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.Set-Time'
+
+14-09-2024T14:48:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.Set-Time'
+
+14-09-2024T14:48:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.Time-Picker_Hours"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.Time-Picker_Hours'
+
+14-09-2024T14:48:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.Time-Picker_Hours'
+
+14-09-2024T14:48:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.Time-Picker_Minute"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.Time-Picker_Minute'
+
+14-09-2024T14:48:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.Time-Picker_Minute'
+
+14-09-2024T14:48:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.button_Time-OKE"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.button_Time-OKE'
+
+14-09-2024T14:48:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.button_Time-OKE'
+
+14-09-2024T14:48:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.Spinner"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.Spinner'
+
+14-09-2024T14:48:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.Spinner'
+
+14-09-2024T14:48:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.CheckedTextView - Personal"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.CheckedTextView - Personal'
+
+14-09-2024T14:48:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.CheckedTextView - Personal'
+
+14-09-2024T14:48:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Add-Task/android.widget.submitButton"), 0): Tapped on element 'Object Repository/page_Add-Task/android.widget.submitButton'
+
+14-09-2024T14:48:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Add-Task/android.widget.submitButton'
+
+14-09-2024T14:48:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page_Add-Task/android.widget.TextView - Katalon Class"), taskTitle): Actual text and expected text of test object 'Object Repository/page_Add-Task/android.widget.TextView - Katalon Class' are matched.
+
+14-09-2024T14:48:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page_Add-Task/android.widget.TextView - Katalon Class' are matched.
+
+14-09-2024T14:48:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/page_Add-Task/android.widget.TextView - Mobile, API"), enterYourTask): Actual text and expected text of test object 'Object Repository/page_Add-Task/android.widget.TextView - Mobile, API' are matched.
+
+14-09-2024T14:48:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page_Add-Task/android.widget.TextView - Mobile, API' are matched.
+
+14-09-2024T14:48:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Add Task' successfully
+
+14-09-2024T14:48:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/page_Dashboard/android.widget.button_kebab-menu"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.button_kebab-menu'
+
+14-09-2024T14:48:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.button_kebab-menu'
+
+14-09-2024T14:48:40 - [TEST_STEP][PASSED] - tap(findTestObject("page_Dashboard/android.widget.button_Delete"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.button_Delete'
+
+14-09-2024T14:48:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.button_Delete'
+
+14-09-2024T14:48:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Dashboard/android.widget.lbl_Delete-Task"), 0): Element 'Object Repository/page_Dashboard/android.widget.lbl_Delete-Task' is visible
+
+14-09-2024T14:48:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:42 - [MESSAGE][PASSED] - Element 'Object Repository/page_Dashboard/android.widget.lbl_Delete-Task' is visible
+
+14-09-2024T14:48:42 - [TEST_STEP][PASSED] - tap(findTestObject("page_Dashboard/android.widget.Button_Confirm-DELETE"), 0): Tapped on element 'Object Repository/page_Dashboard/android.widget.Button_Confirm-DELETE'
+
+14-09-2024T14:48:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/page_Dashboard/android.widget.Button_Confirm-DELETE'
+
+14-09-2024T14:48:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_Dashboard/android.widget.lbl_ToDo"), 0): Element 'Object Repository/page_Dashboard/android.widget.lbl_ToDo' is visible
+
+14-09-2024T14:48:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-09-2024T14:48:44 - [MESSAGE][PASSED] - Element 'Object Repository/page_Dashboard/android.widget.lbl_ToDo' is visible
+
+14-09-2024T14:48:44 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+14-09-2024T14:48:47 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-09-2024T14:44:46 - [TEST_SUITE][PASSED] - TS Task: Test Cases/Task/Delete Task]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

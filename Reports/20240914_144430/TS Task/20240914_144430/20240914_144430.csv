@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS Task,,,,14-09-2024 14:44:46,14-09-2024 14:48:47,4m - 0.814s,PASSED
+,,,,,,,
+Test Cases/Task/Add Task Success,,,,14-09-2024 14:44:47,14-09-2024 14:46:03,1m - 15.087s,PASSED
+"startApplication(apk, true)",,,,14-09-2024 14:44:49,14-09-2024 14:45:35,45.816s,PASSED
+"tap(findTestObject(""page_Dashboard/android.widget.TextView - Skip""), 0)",,,,14-09-2024 14:45:35,14-09-2024 14:45:37,1.648s,PASSED
+"tap(findTestObject(""page_Dashboard/android.widget.button_Add-Task""), 0)",,,,14-09-2024 14:45:37,14-09-2024 14:45:38,1.230s,PASSED
+"verifyElementVisible(findTestObject(""page_Add-Task/android.widget.lbl_Add-Task""), 0)",,,,14-09-2024 14:45:38,14-09-2024 14:45:40,1.600s,PASSED
+"setText(findTestObject(""Object Repository/page_Add-Task/android.widget.input_Task-Title""), taskTitle, 0)",,,,14-09-2024 14:45:40,14-09-2024 14:45:42,2.079s,PASSED
+"setText(findTestObject(""Object Repository/page_Add-Task/android.widget.input_Task-Desc""), enterYourTask, 0)",,,,14-09-2024 14:45:42,14-09-2024 14:45:44,2.538s,PASSED
+"tap(findTestObject(""Object Repository/page_Add-Task/android.widget.Set-Date""), 0)",,,,14-09-2024 14:45:44,14-09-2024 14:45:46,1.606s,PASSED
+"tap(findTestObject(""page_Add-Task/android.view.View - 15""), 0)",,,,14-09-2024 14:45:46,14-09-2024 14:45:47,1.487s,PASSED
+"tap(findTestObject(""Object Repository/page_Add-Task/android.widget.button_Date-OKE""), 0)",,,,14-09-2024 14:45:47,14-09-2024 14:45:48,0.521s,PASSED
+"tap(findTestObject(""Object Repository/page_Add-Task/android.widget.Set-Time""), 0)",,,,14-09-2024 14:45:48,14-09-2024 14:45:49,1.580s,PASSED
+"tap(findTestObject(""Object Repository/page_Add-Task/android.widget.Time-Picker_Hours""), 0)",,,,14-09-2024 14:45:49,14-09-2024 14:45:52,2.065s,PASSED
+"tap(findTestObject(""Object Repository/page_Add-Task/android.widget.Time-Picker_Minute""), 0)",,,,14-09-2024 14:45:52,14-09-2024 14:45:52,0.921s,PASSED
+"tap(findTestObject(""Object Repository/page_Add-Task/android.widget.button_Time-OKE""), 0)",,,,14-09-2024 14:45:52,14-09-2024 14:45:53,0.438s,PASSED
+"tap(findTestObject(""Object Repository/page_Add-Task/android.widget.Spinner""), 0)",,,,14-09-2024 14:45:53,14-09-2024 14:45:54,0.851s,PASSED
+select_dropdown = category,,Memilih Category,,14-09-2024 14:45:54,14-09-2024 14:45:54,0.005s,PASSED
+switch (select_dropdown),,,,14-09-2024 14:45:54,14-09-2024 14:45:56,1.991s,PASSED
+"tap(findTestObject(""Object Repository/page_Add-Task/android.widget.submitButton""), 0)",,,,14-09-2024 14:45:56,14-09-2024 14:45:57,1.078s,PASSED
+"verifyElementText(findTestObject(""Object Repository/page_Add-Task/android.widget.TextView - Katalon Class""), taskTitle)",,,,14-09-2024 14:45:57,14-09-2024 14:45:59,1.819s,PASSED
+"verifyElementText(findTestObject(""Object Repository/page_Add-Task/android.widget.TextView - Mobile, API""), enterYourTask)",,,,14-09-2024 14:45:59,14-09-2024 14:45:59,0.322s,PASSED
+switch (select_dropdown),,Verifikasi Kategori yang di Pilih,,14-09-2024 14:45:59,14-09-2024 14:45:59,0.437s,PASSED
+closeApplication(),,,,14-09-2024 14:45:59,14-09-2024 14:46:03,3.131s,PASSED
+,,,,,,,
+Test Cases/Task/Edit Task,,,,14-09-2024 14:46:03,14-09-2024 14:47:25,1m - 22.062s,PASSED
+"startApplication(apk, true)",,,,14-09-2024 14:46:03,14-09-2024 14:46:44,41.247s,PASSED
+"tap(findTestObject(""page_Dashboard/android.widget.TextView - Skip""), 0)",,,,14-09-2024 14:46:44,14-09-2024 14:46:46,1.589s,PASSED
+"verifyElementVisible(findTestObject(""page_Dashboard/android.widget.lbl_ToDo""), 0)",,,,14-09-2024 14:46:46,14-09-2024 14:46:47,1.071s,PASSED
+"callTestCase(findTestCase(""Blocks/Add Task""), [""taskTitle"":""Katalon Class"", ""enterYourTask"":""Mobile, API""], STOP_ON_FAILURE)",,,,14-09-2024 14:46:47,14-09-2024 14:47:11,23.553s,PASSED
+"tap(findTestObject(""Object Repository/page_Dashboard/android.widget.button_kebab-menu""), 0)",,,,14-09-2024 14:47:11,14-09-2024 14:47:12,0.904s,PASSED
+"tap(findTestObject(""Object Repository/page_Dashboard/android.widget.button_Edit""), 0)",,,,14-09-2024 14:47:12,14-09-2024 14:47:13,1.900s,PASSED
+"setText(findTestObject(""page_Edit-Task/android.widget.updateTitleTask - Katalon Class""), updateTitleTask, 0)",,Masih Error,,14-09-2024 14:47:13,14-09-2024 14:47:17,3.670s,PASSED
+"setText(findTestObject(""Object Repository/page_Edit-Task/android.widget.input_updateTitleDesc""), updateTaskDesc, 0)",,,,14-09-2024 14:47:17,14-09-2024 14:47:19,2.248s,PASSED
+"tap(findTestObject(""page_Add-Task/android.widget.submitButton""), 0)",,,,14-09-2024 14:47:19,14-09-2024 14:47:20,0.813s,PASSED
+"verifyElementText(findTestObject(""Object Repository/page_Edit-Task/android.widget.TextView - Katalon Final Task""), updateTitleTask)",,,,14-09-2024 14:47:20,14-09-2024 14:47:22,1.371s,PASSED
+"verifyElementText(findTestObject(""Object Repository/page_Edit-Task/android.widget.TextView - Mobile, Web, API""), updateTaskDesc)",,,,14-09-2024 14:47:22,14-09-2024 14:47:22,0.272s,PASSED
+closeApplication(),,,,14-09-2024 14:47:22,14-09-2024 14:47:25,2.842s,PASSED
+,,,,,,,
+Test Cases/Task/Delete Task,,,,14-09-2024 14:47:25,14-09-2024 14:48:47,1m - 22.181s,PASSED
+"startApplication(apk, true)",,,,14-09-2024 14:47:25,14-09-2024 14:48:14,49.079s,PASSED
+"tap(findTestObject(""page_Dashboard/android.widget.TextView - Skip""), 0)",,,,14-09-2024 14:48:14,14-09-2024 14:48:16,1.792s,PASSED
+"verifyElementVisible(findTestObject(""page_Dashboard/android.widget.lbl_ToDo""), 0)",,,,14-09-2024 14:48:16,14-09-2024 14:48:18,1.775s,PASSED
+"callTestCase(findTestCase(""Blocks/Add Task""), [""taskTitle"":""Katalon Class"", ""enterYourTask"":""Mobile, API""], STOP_ON_FAILURE)",,,,14-09-2024 14:48:18,14-09-2024 14:48:39,21.624s,PASSED
+"tap(findTestObject(""Object Repository/page_Dashboard/android.widget.button_kebab-menu""), 0)",,,,14-09-2024 14:48:39,14-09-2024 14:48:40,0.376s,PASSED
+"tap(findTestObject(""page_Dashboard/android.widget.button_Delete""), 0)",,,,14-09-2024 14:48:40,14-09-2024 14:48:42,2.161s,PASSED
+"verifyElementVisible(findTestObject(""page_Dashboard/android.widget.lbl_Delete-Task""), 0)",,,,14-09-2024 14:48:42,14-09-2024 14:48:42,0.466s,PASSED
+"tap(findTestObject(""page_Dashboard/android.widget.Button_Confirm-DELETE""), 0)",,,,14-09-2024 14:48:42,14-09-2024 14:48:43,0.534s,PASSED
+"verifyElementVisible(findTestObject(""page_Dashboard/android.widget.lbl_ToDo""), 0)",,,,14-09-2024 14:48:43,14-09-2024 14:48:44,1.090s,PASSED
+closeApplication(),,,,14-09-2024 14:48:44,14-09-2024 14:48:47,2.904s,PASSED
