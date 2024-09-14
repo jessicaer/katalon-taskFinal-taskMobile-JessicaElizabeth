@@ -18,6 +18,12 @@
       <value></value>
       <variableId>f620eb0f-8011-44cd-a334-a752b33bec0c</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6d8b0634-c361-4cba-b105-292e2057aef4</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Katalon Class'</defaultValue>
       <description></description>
@@ -31,5 +37,12 @@
       <id>f620eb0f-8011-44cd-a334-a752b33bec0c</id>
       <masked>false</masked>
       <name>enterYourTask</name>
+   </variable>
+   <variable>
+      <defaultValue>'Personal'</defaultValue>
+      <description></description>
+      <id>6d8b0634-c361-4cba-b105-292e2057aef4</id>
+      <masked>false</masked>
+      <name>category</name>
    </variable>
 </TestCaseEntity>
