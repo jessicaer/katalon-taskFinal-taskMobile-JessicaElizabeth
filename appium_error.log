@@ -1,0 +1,11 @@
+[38;5;31m[10b62420][0m[38;5;160m[Logcat][0m Logcat terminated with code 0, signal null
+uncaughtException: Could not find a connected Android device in 20000ms
+Error: Could not find a connected Android device in 20000ms
+    at ADB.getDevicesWithRetry (C:\Users\Acer Aspire Z476\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-adb\lib\tools\system-calls.js:331:13)
+    at execFunc (C:\Users\Acer Aspire Z476\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-adb\lib\tools\system-calls.js:518:9)
+    at ADB.adbExec (C:\Users\Acer Aspire Z476\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-adb\lib\tools\system-calls.js:555:12)
+    at ADB.shell (C:\Users\Acer Aspire Z476\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-adb\lib\tools\system-calls.js:593:10)
+    at ADB.setDefaultHiddenApiPolicy (C:\Users\Acer Aspire Z476\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-adb\lib\tools\adb-commands.js:601:5)
+    at AndroidUiautomator2Driver.deleteSession (C:\Users\Acer Aspire Z476\.appium\node_modules\appium-uiautomator2-driver\lib\driver.ts:931:9)
+    at AndroidUiautomator2Driver.startUnexpectedShutdown (C:\Users\Acer Aspire Z476\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\driver.ts:170:9)
+    at Timeout._onTimeout (C:\Users\Acer Aspire Z476\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\driver.ts:194:7)
